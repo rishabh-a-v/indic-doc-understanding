@@ -1,0 +1,101 @@
+{
+ "headline": {
+  "documents": 42,
+  "gold_fields": 245,
+  "questions": 168,
+  "field_accuracy_strict": 0.771,
+  "field_accuracy_lenient": 0.788,
+  "documents_fully_correct": 0.381,
+  "doc_type_accuracy": 0.952,
+  "language_id_accuracy": 1.0,
+  "text_field_mean_cer": 0.149,
+  "qa_accuracy": 0.833,
+  "qa_exact_match": 0.81,
+  "qa_token_f1": 0.869,
+  "patram": false,
+  "seconds_total": 563.6,
+  "seconds_per_doc": 13.4,
+  "qa_accuracy_without_router": 0.667
+ },
+ "field_by_language": {
+  "bn": 0.8,
+  "gu": 0.743,
+  "hi": 0.743,
+  "kn": 0.771,
+  "mr": 0.571,
+  "ta": 0.857,
+  "te": 0.914
+ },
+ "field_by_degradation": {
+  "clean": 0.865,
+  "lowres": 0.72,
+  "photo": 0.652,
+  "scan": 0.836
+ },
+ "field_by_layout": {
+  "colon": 0.801,
+  "table": 0.714
+ },
+ "field_by_native_digits": {
+  "False": 0.798,
+  "True": 0.673
+ },
+ "field_by_field": {
+  "annual_income": 0.857,
+  "application_number": 0.5,
+  "bill_amount": 0.857,
+  "certificate_number": 0.143,
+  "consumer_number": 0.714,
+  "date": 0.857,
+  "date_of_birth": 0.929,
+  "department": 0.714,
+  "district": 0.905,
+  "due_date": 0.857,
+  "father_name": 0.762,
+  "fee": 0.857,
+  "issue_date": 0.714,
+  "last_date": 0.929,
+  "mobile": 0.786,
+  "name": 0.75,
+  "notice_number": 0.5,
+  "pin_code": 0.929,
+  "units_consumed": 0.857
+ },
+ "field_by_doc_type": {
+  "application_form": 0.786,
+  "electricity_bill": 0.8,
+  "income_certificate": 0.714,
+  "public_notice": 0.771
+ },
+ "qa_by_language": {
+  "bn": 0.875,
+  "gu": 0.875,
+  "hi": 0.792,
+  "kn": 0.75,
+  "mr": 0.667,
+  "ta": 1.0,
+  "te": 0.875
+ },
+ "qa_by_question_language": {
+  "en": 0.817,
+  "native": 0.881
+ },
+ "qa_by_tool": {
+  "field_lookup": 0.903,
+  "rag_extractive": 0.071
+ },
+ "qa_tool_usage": {
+  "field_lookup": 154,
+  "rag_extractive": 14
+ },
+ "field_errors": {
+  "ocr_error": 45,
+  "label_value_not_paired": 4,
+  "value_split_or_normalisation": 4,
+  "label_mapped_to_wrong_field": 3
+ },
+ "qa_errors": {
+  "extracted_field_wrong": 15,
+  "rag_reader_wrong": 13
+ }
+}

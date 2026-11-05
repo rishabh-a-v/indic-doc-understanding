@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.gradio/
+flagged/
+eval/results/*/trace_*.json
+eval/testset/
+eval/testset_holdout/
+eval/results/local_v1/
+eval/results/local_v2/
+eval/results/holdout_v2/

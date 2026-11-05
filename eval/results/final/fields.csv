@@ -1,0 +1,246 @@
+id,lang,doc_type,layout,degradation,native_digits,field,gold,pred,pred_en,source,strict,lenient,cer,error,pred_doc_type,pred_lang,ocr_conf
+00_hi_application_form,hi,application_form,colon,clean,False,name,प्रिया वर्मा,प्रिया वर्मा,Priya Verma,ocr+indictrans2,True,True,0.0,,application_form,hi,85.81666666666666
+00_hi_application_form,hi,application_form,colon,clean,False,father_name,सुरेश वर्मा,सुरेश वर्मा,Suresh Verma,ocr+indictrans2,True,True,0.0,,application_form,hi,85.81666666666666
+00_hi_application_form,hi,application_form,colon,clean,False,date_of_birth,22/02/1986,22/02/1986,22/02/1986,ocr+indictrans2,True,True,,,application_form,hi,85.81666666666666
+00_hi_application_form,hi,application_form,colon,clean,False,mobile,7146881973,774688973,774688973,ocr+indictrans2,False,False,,ocr_error,application_form,hi,85.81666666666666
+00_hi_application_form,hi,application_form,colon,clean,False,district,पटना,पटना,Patna,ocr+indictrans2,True,True,0.0,,application_form,hi,85.81666666666666
+00_hi_application_form,hi,application_form,colon,clean,False,pin_code,552121,552727,552727,ocr+indictrans2,False,False,,ocr_error,application_form,hi,85.81666666666666
+00_hi_application_form,hi,application_form,colon,clean,False,application_number,REG/2025/90375,REG/2025/90375,REG/2025/90375,ocr+indictrans2,True,True,,,application_form,hi,85.81666666666666
+01_hi_public_notice,hi,public_notice,colon,scan,False,notice_number,RD/793/2025,,,,False,False,,label_translation_unmatched,application_form,hi,91.26950757575757
+01_hi_public_notice,hi,public_notice,colon,scan,False,date,23/01/2025,23/01/2025,23/01/2025,ocr+indictrans2,True,True,,,application_form,hi,91.26950757575757
+01_hi_public_notice,hi,public_notice,colon,scan,False,department,ग्रामीण विकास विभाग,,,,False,False,1.0,label_value_not_paired,application_form,hi,91.26950757575757
+01_hi_public_notice,hi,public_notice,colon,scan,False,last_date,29/10/2025,29/॥0/2025,29/॥0/2025,ocr+indictrans2,False,False,,ocr_error,application_form,hi,91.26950757575757
+01_hi_public_notice,hi,public_notice,colon,scan,False,fee,250,250,250,ocr+indictrans2,True,True,,,application_form,hi,91.26950757575757
+02_hi_income_certificate,hi,income_certificate,table,photo,False,certificate_number,IC/2024/235412,,,,False,False,,ocr_error,income_certificate,hi,77.96296296296296
+02_hi_income_certificate,hi,income_certificate,table,photo,False,name,प्रिया वर्मा,प्रिया वर्मा >,Priya Verma >,ocr+indictrans2,True,True,0.0,,income_certificate,hi,77.96296296296296
+02_hi_income_certificate,hi,income_certificate,table,photo,False,father_name,सुरेश वर्मा,सुरेश वर्मा क,Suresh Verma,ocr+indictrans2,True,True,0.2,,income_certificate,hi,77.96296296296296
+02_hi_income_certificate,hi,income_certificate,table,photo,False,annual_income,158000,58000,58000,ocr+indictrans2,False,False,,ocr_error,income_certificate,hi,77.96296296296296
+02_hi_income_certificate,hi,income_certificate,table,photo,False,district,भोपाल,भोपाल क,of Bhopal.,ocr+indictrans2,False,False,0.4,value_split_or_normalisation,income_certificate,hi,77.96296296296296
+02_hi_income_certificate,hi,income_certificate,table,photo,False,issue_date,13/06/2024,jroo a,jroo a,ocr+indictrans2,False,False,,ocr_error,income_certificate,hi,77.96296296296296
+03_hi_electricity_bill,hi,electricity_bill,colon,lowres,False,consumer_number,124906528630,24906528630,24906528630,ocr+indictrans2,False,False,,ocr_error,electricity_bill,hi,82.4
+03_hi_electricity_bill,hi,electricity_bill,colon,lowres,False,name,सुनीता देवी,सुनीता देवी,Sunita Devi,ocr+indictrans2,True,True,0.0,,electricity_bill,hi,82.4
+03_hi_electricity_bill,hi,electricity_bill,colon,lowres,False,units_consumed,256,256,256,ocr+indictrans2,True,True,,,electricity_bill,hi,82.4
+03_hi_electricity_bill,hi,electricity_bill,colon,lowres,False,bill_amount,1675,7675,7675,ocr+indictrans2,False,False,,ocr_error,electricity_bill,hi,82.4
+03_hi_electricity_bill,hi,electricity_bill,colon,lowres,False,due_date,07/10/2025,07/10/2025,07/10/2025,ocr+indictrans2,True,True,,,electricity_bill,hi,82.4
+04_hi_application_form,hi,application_form,colon,clean,False,name,सुनीता देवी,सुनीता देवी,Sunita Devi,ocr+indictrans2,True,True,0.0,,application_form,hi,90.99166666666666
+04_hi_application_form,hi,application_form,colon,clean,False,father_name,राम प्रसाद,राम प्रसाद,Ram Prasad,ocr+indictrans2,True,True,0.0,,application_form,hi,90.99166666666666
+04_hi_application_form,hi,application_form,colon,clean,False,date_of_birth,29/04/1980,29/04/1980,29/04/1980,ocr+indictrans2,True,True,,,application_form,hi,90.99166666666666
+04_hi_application_form,hi,application_form,colon,clean,False,mobile,7422623857,7422623857,7422623857,ocr+indictrans2,True,True,,,application_form,hi,90.99166666666666
+04_hi_application_form,hi,application_form,colon,clean,False,district,लखनऊ,लखनऊ,Lucknow,ocr+indictrans2,True,True,0.0,,application_form,hi,90.99166666666666
+04_hi_application_form,hi,application_form,colon,clean,False,pin_code,355269,355269,355269,ocr+indictrans2,True,True,,,application_form,hi,90.99166666666666
+04_hi_application_form,hi,application_form,colon,clean,False,application_number,SCH/2025/25363,SCH/2025/25363,SCH/2025/25363,ocr+indictrans2,True,True,,,application_form,hi,90.99166666666666
+05_hi_public_notice,hi,public_notice,table,scan,True,notice_number,SW/524/2025,,,,False,False,,ocr_error,application_form,hi,93.32613636363637
+05_hi_public_notice,hi,public_notice,table,scan,True,date,05/04/2025,05/04/2025,05/04/2025,ocr+indictrans2,True,True,,,application_form,hi,93.32613636363637
+05_hi_public_notice,hi,public_notice,table,scan,True,department,समाज कल्याण विभाग,,,,False,False,1.0,label_value_not_paired,application_form,hi,93.32613636363637
+05_hi_public_notice,hi,public_notice,table,scan,True,last_date,14/11/2025,14/11/2025,14/11/2025,ocr+indictrans2,True,True,,,application_form,hi,93.32613636363637
+05_hi_public_notice,hi,public_notice,table,scan,True,fee,100,100,100,ocr+indictrans2,True,True,,,application_form,hi,93.32613636363637
+06_mr_application_form,mr,application_form,colon,photo,True,name,गणेश जाधव,गणेश जाधव,Ganesh Jadhav,ocr+indictrans2,True,True,0.0,,application_form,mr,91.04166666666666
+06_mr_application_form,mr,application_form,colon,photo,True,father_name,रामदास जाधव,,,,False,False,1.0,label_mapped_to_wrong_field,application_form,mr,91.04166666666666
+06_mr_application_form,mr,application_form,colon,photo,True,date_of_birth,31/03/2005,31/03/2005,31/03/2005,ocr+indictrans2,True,True,,,application_form,mr,91.04166666666666
+06_mr_application_form,mr,application_form,colon,photo,True,mobile,7647176418,7647176418,7647176418,ocr+indictrans2,True,True,,,application_form,mr,91.04166666666666
+06_mr_application_form,mr,application_form,colon,photo,True,district,नाशिक,नाशिक,Nashik,ocr+indictrans2,True,True,0.0,,application_form,mr,91.04166666666666
+06_mr_application_form,mr,application_form,colon,photo,True,pin_code,417265,417265,417265,ocr+indictrans2,True,True,,,application_form,mr,91.04166666666666
+06_mr_application_form,mr,application_form,colon,photo,True,application_number,REG/2025/52021,260/2025/52021,260/2025/52021,ocr+indictrans2,False,False,,ocr_error,application_form,mr,91.04166666666666
+07_mr_public_notice,mr,public_notice,colon,lowres,True,notice_number,EDU/783/2025,600/783/2025,600/783/2025,ocr+indictrans2,False,False,,ocr_error,public_notice,mr,82.56296296296297
+07_mr_public_notice,mr,public_notice,colon,lowres,True,date,01/04/2025,01/04/2025,01/04/2025,ocr+indictrans2,True,True,,,public_notice,mr,82.56296296296297
+07_mr_public_notice,mr,public_notice,colon,lowres,True,department,समाज कल्याण विभाग,समाज कल्याण विभाग,Department of Social Welfare,layout:letterhead,True,True,0.0,,public_notice,mr,82.56296296296297
+07_mr_public_notice,mr,public_notice,colon,lowres,True,last_date,25/12/2025,25/12/2025,25/12/2025,ocr+indictrans2,True,True,,,public_notice,mr,82.56296296296297
+07_mr_public_notice,mr,public_notice,colon,lowres,True,fee,250,250,250,ocr+indictrans2,True,True,,,public_notice,mr,82.56296296296297
+08_mr_income_certificate,mr,income_certificate,table,clean,False,certificate_number,IC/2023/626024,,,,False,False,,ocr_error,income_certificate,mr,84.26851851851853
+08_mr_income_certificate,mr,income_certificate,table,clean,False,name,गणेश जाधव,गणेश जाधव,Ganesh Jadhav,ocr+indictrans2,True,True,0.0,,income_certificate,mr,84.26851851851853
+08_mr_income_certificate,mr,income_certificate,table,clean,False,father_name,रामदास जाधव,,,,False,False,1.0,label_mapped_to_wrong_field,income_certificate,mr,84.26851851851853
+08_mr_income_certificate,mr,income_certificate,table,clean,False,annual_income,320000,320000,320000,ocr+indictrans2,True,True,,,income_certificate,mr,84.26851851851853
+08_mr_income_certificate,mr,income_certificate,table,clean,False,district,सातारा,सातारा,Satara,ocr+indictrans2,True,True,0.0,,income_certificate,mr,84.26851851851853
+08_mr_income_certificate,mr,income_certificate,table,clean,False,issue_date,26/07/2024,26/07/2024,26/07/2024,ocr+indictrans2,True,True,,,income_certificate,mr,84.26851851851853
+09_mr_electricity_bill,mr,electricity_bill,colon,scan,False,consumer_number,899430141900,8994304900,8994304900,ocr+indictrans2,False,False,,ocr_error,electricity_bill,mr,89.69166666666668
+09_mr_electricity_bill,mr,electricity_bill,colon,scan,False,name,पूजा कुलकर्णी,पूजा कुलकर्णी,Pooja Kulkarni,ocr+indictrans2,True,True,0.0,,electricity_bill,mr,89.69166666666668
+09_mr_electricity_bill,mr,electricity_bill,colon,scan,False,units_consumed,466,466,466,ocr+indictrans2,True,True,,,electricity_bill,mr,89.69166666666668
+09_mr_electricity_bill,mr,electricity_bill,colon,scan,False,bill_amount,2987,2987,2987,ocr+indictrans2,True,True,,,electricity_bill,mr,89.69166666666668
+09_mr_electricity_bill,mr,electricity_bill,colon,scan,False,due_date,13/10/2025,03/10/2025,03/10/2025,ocr+indictrans2,False,False,,ocr_error,electricity_bill,mr,89.69166666666668
+10_mr_application_form,mr,application_form,colon,photo,True,name,गणेश जाधव,गणेश जाधव,Ganesh Jadhav,ocr+indictrans2,True,True,0.0,,application_form,mr,83.40303030303029
+10_mr_application_form,mr,application_form,colon,photo,True,father_name,रामदास जाधव,रामदास जाधव,Ramdas Jadhav,ocr+indictrans2,True,True,0.0,,application_form,mr,83.40303030303029
+10_mr_application_form,mr,application_form,colon,photo,True,date_of_birth,12/01/1995,12/01/1995,12/01/1995,ocr+indictrans2,True,True,,,application_form,mr,83.40303030303029
+10_mr_application_form,mr,application_form,colon,photo,True,mobile,9682543479,9682543479,9682543479,ocr+indictrans2,True,True,,,application_form,mr,83.40303030303029
+10_mr_application_form,mr,application_form,colon,photo,True,district,नाशिक,नाशिक,Nashik,ocr+indictrans2,True,True,0.0,,application_form,mr,83.40303030303029
+10_mr_application_form,mr,application_form,colon,photo,True,pin_code,511243,511243,511243,ocr+indictrans2,True,True,,,application_form,mr,83.40303030303029
+10_mr_application_form,mr,application_form,colon,photo,True,application_number,APP/2025/72806,1॥0?/2025/72806,1॥0?/2025/72806,ocr+indictrans2,False,False,,ocr_error,application_form,mr,83.40303030303029
+11_mr_public_notice,mr,public_notice,table,lowres,True,notice_number,RD/851/2025,20/851/2025,20/851/2025,ocr+indictrans2,False,False,,ocr_error,public_notice,mr,89.640625
+11_mr_public_notice,mr,public_notice,table,lowres,True,date,02/01/2025,02/01/2025,02/01/2025,ocr+indictrans2,True,True,,,public_notice,mr,89.640625
+11_mr_public_notice,mr,public_notice,table,lowres,True,department,समाज कल्याण विभाग,समाज कल्याण विभाग,Department of Social Welfare,layout:letterhead,True,True,0.0,,public_notice,mr,89.640625
+11_mr_public_notice,mr,public_notice,table,lowres,True,last_date,23/11/2025,23/11/2025,23/11/2025,ocr+indictrans2,True,True,,,public_notice,mr,89.640625
+11_mr_public_notice,mr,public_notice,table,lowres,True,fee,1000,1000,1000,ocr+indictrans2,True,True,,,public_notice,mr,89.640625
+12_bn_application_form,bn,application_form,colon,clean,False,name,সুমন দাস,সুমন দাস,Suman Das,ocr+indictrans2,True,True,0.0,,application_form,bn,79.5625
+12_bn_application_form,bn,application_form,colon,clean,False,father_name,অশোক দাস,,,,False,False,1.0,ocr_error,application_form,bn,79.5625
+12_bn_application_form,bn,application_form,colon,clean,False,date_of_birth,25/04/1985,25/04/1985,25/04/1985,ocr+indictrans2,True,True,,,application_form,bn,79.5625
+12_bn_application_form,bn,application_form,colon,clean,False,mobile,8270633172,8270633172,8270633172,ocr+indictrans2,True,True,,,application_form,bn,79.5625
+12_bn_application_form,bn,application_form,colon,clean,False,district,নদিয়া,,,,False,False,1.0,ocr_error,application_form,bn,79.5625
+12_bn_application_form,bn,application_form,colon,clean,False,pin_code,396054,396054,396054,ocr+indictrans2,True,True,,,application_form,bn,79.5625
+12_bn_application_form,bn,application_form,colon,clean,False,application_number,SCH/2025/96093,SCH/2025/96093,SCH/2025/96093,ocr+indictrans2,True,True,,,application_form,bn,79.5625
+13_bn_public_notice,bn,public_notice,colon,scan,False,notice_number,EDU/133/2025,EDU/133/2025,EDU/133/2025,ocr+indictrans2,True,True,,,public_notice,bn,70.40917508417508
+13_bn_public_notice,bn,public_notice,colon,scan,False,date,12/05/2025,12/05/2025,12/05/2025,ocr+indictrans2,True,True,,,public_notice,bn,70.40917508417508
+13_bn_public_notice,bn,public_notice,colon,scan,False,department,গ্রামোন্নয়ন বিভাগ,গ্রামানয়ন বিভাগ,Rural Development Department,layout:letterhead,True,True,0.1111111111111111,,public_notice,bn,70.40917508417508
+13_bn_public_notice,bn,public_notice,colon,scan,False,last_date,13/12/2025,13/12/2025,13/12/2025,ocr+indictrans2,True,True,,,public_notice,bn,70.40917508417508
+13_bn_public_notice,bn,public_notice,colon,scan,False,fee,500,500,500,ocr+indictrans2,True,True,,,public_notice,bn,70.40917508417508
+14_bn_income_certificate,bn,income_certificate,table,photo,True,certificate_number,IC/2025/646561,,,,False,False,,ocr_error,income_certificate,bn,69.6111111111111
+14_bn_income_certificate,bn,income_certificate,table,photo,True,name,সুমন দাস,,,,False,False,1.0,label_value_not_paired,income_certificate,bn,69.6111111111111
+14_bn_income_certificate,bn,income_certificate,table,photo,True,father_name,অশোক দাস,,,,False,False,1.0,label_value_not_paired,income_certificate,bn,69.6111111111111
+14_bn_income_certificate,bn,income_certificate,table,photo,True,annual_income,422000,422000,422000,regex,True,True,,,income_certificate,bn,69.6111111111111
+14_bn_income_certificate,bn,income_certificate,table,photo,True,district,হাওড়া,,,,False,False,1.0,label_value_not_paired,income_certificate,bn,69.6111111111111
+14_bn_income_certificate,bn,income_certificate,table,photo,True,issue_date,13/01/2024,,,,False,False,,label_value_not_paired,income_certificate,bn,69.6111111111111
+15_bn_electricity_bill,bn,electricity_bill,colon,lowres,False,consumer_number,909604220484,909604220484,909604220484,ocr+indictrans2,True,True,,,electricity_bill,bn,81.56041666666667
+15_bn_electricity_bill,bn,electricity_bill,colon,lowres,False,name,অরিন্দম ঘোষ,এরিন্পম ঘোষ,Erinpom Ghosh,ocr+indictrans2,False,False,0.18181818181818182,ocr_error,electricity_bill,bn,81.56041666666667
+15_bn_electricity_bill,bn,electricity_bill,colon,lowres,False,units_consumed,337,337,337,ocr+indictrans2,True,True,,,electricity_bill,bn,81.56041666666667
+15_bn_electricity_bill,bn,electricity_bill,colon,lowres,False,bill_amount,1928,1928,1928,ocr+indictrans2,True,True,,,electricity_bill,bn,81.56041666666667
+15_bn_electricity_bill,bn,electricity_bill,colon,lowres,False,due_date,07/08/2025,07/08/2025,07/08/2025,ocr+indictrans2,True,True,,,electricity_bill,bn,81.56041666666667
+16_bn_application_form,bn,application_form,colon,clean,False,name,সুমন দাস,সুমন দাস,Suman Das,ocr+indictrans2,True,True,0.0,,application_form,bn,74.10185185185186
+16_bn_application_form,bn,application_form,colon,clean,False,father_name,অশোক দাস,,,,False,False,1.0,ocr_error,application_form,bn,74.10185185185186
+16_bn_application_form,bn,application_form,colon,clean,False,date_of_birth,17/05/2002,17/05/2002,17/05/2002,ocr+indictrans2,True,True,,,application_form,bn,74.10185185185186
+16_bn_application_form,bn,application_form,colon,clean,False,mobile,7820466832,7820466832,7820466832,regex,True,True,,,application_form,bn,74.10185185185186
+16_bn_application_form,bn,application_form,colon,clean,False,district,বর্ধমান,বর্ধমান,Growing up,ocr+indictrans2,True,True,0.0,,application_form,bn,74.10185185185186
+16_bn_application_form,bn,application_form,colon,clean,False,pin_code,659580,659580,659580,ocr+indictrans2,True,True,,,application_form,bn,74.10185185185186
+16_bn_application_form,bn,application_form,colon,clean,False,application_number,SCH/2025/17152,SCH/2025/17152,SCH/2025/17152,ocr+indictrans2,True,True,,,application_form,bn,74.10185185185186
+17_bn_public_notice,bn,public_notice,table,scan,False,notice_number,SW/162/2025,SW/162/2025,SW/162/2025,ocr+indictrans2,True,True,,,public_notice,bn,71.8733164983165
+17_bn_public_notice,bn,public_notice,table,scan,False,date,07/03/2025,07/03/2025,07/03/2025,ocr+indictrans2,True,True,,,public_notice,bn,71.8733164983165
+17_bn_public_notice,bn,public_notice,table,scan,False,department,গ্রামোন্নয়ন বিভাগ,গ্রামাননয়ন বিভাগ,Rural Development Department,layout:letterhead,True,True,0.05555555555555555,,public_notice,bn,71.8733164983165
+17_bn_public_notice,bn,public_notice,table,scan,False,last_date,16/08/2025,16/08/2025,16/08/2025,ocr+indictrans2,True,True,,,public_notice,bn,71.8733164983165
+17_bn_public_notice,bn,public_notice,table,scan,False,fee,1000,1000,1000,ocr+indictrans2,True,True,,,public_notice,bn,71.8733164983165
+18_ta_application_form,ta,application_form,colon,photo,False,name,கார்த்திக் வேலு,கார்த்திக் வேலு,Karthik Velu,ocr+indictrans2,True,True,0.0,,application_form,ta,90.70833333333333
+18_ta_application_form,ta,application_form,colon,photo,False,father_name,வேலு முருகேசன்,வேலு முருகேசன்,Velu Murugesan,ocr+indictrans2,True,True,0.0,,application_form,ta,90.70833333333333
+18_ta_application_form,ta,application_form,colon,photo,False,date_of_birth,01/07/1994,01/07/1994,01/07/1994,ocr+indictrans2,True,True,,,application_form,ta,90.70833333333333
+18_ta_application_form,ta,application_form,colon,photo,False,mobile,7791582397,7791582397,7791582397,ocr+indictrans2,True,True,,,application_form,ta,90.70833333333333
+18_ta_application_form,ta,application_form,colon,photo,False,district,மதுரை,மதுரை,Madurai,ocr+indictrans2,True,True,0.0,,application_form,ta,90.70833333333333
+18_ta_application_form,ta,application_form,colon,photo,False,pin_code,328522,328522,328522,ocr+indictrans2,True,True,,,application_form,ta,90.70833333333333
+18_ta_application_form,ta,application_form,colon,photo,False,application_number,REG/2025/23167,REG/2025/23167,REG/2025/23167,ocr+indictrans2,True,True,,,application_form,ta,90.70833333333333
+19_ta_public_notice,ta,public_notice,colon,lowres,False,notice_number,EDU/637/2025,EDU/637/2025,EDU/637/2025,ocr+indictrans2,True,True,,,public_notice,ta,93.57777777777777
+19_ta_public_notice,ta,public_notice,colon,lowres,False,date,28/02/2025,28/02/2025,28/02/2025,ocr+indictrans2,True,True,,,public_notice,ta,93.57777777777777
+19_ta_public_notice,ta,public_notice,colon,lowres,False,department,கல்வித் துறை,கல்வித் துறை,Department of Education,layout:letterhead,True,True,0.0,,public_notice,ta,93.57777777777777
+19_ta_public_notice,ta,public_notice,colon,lowres,False,last_date,23/12/2025,23/12/2025,23/12/2025,ocr+indictrans2,True,True,,,public_notice,ta,93.57777777777777
+19_ta_public_notice,ta,public_notice,colon,lowres,False,fee,500,500,500,ocr+indictrans2,True,True,,,public_notice,ta,93.57777777777777
+20_ta_income_certificate,ta,income_certificate,table,clean,False,certificate_number,IC/2023/140097,IC/2023/140097,IC/2023/140097,ocr+indictrans2,True,True,,,income_certificate,ta,93.08333333333333
+20_ta_income_certificate,ta,income_certificate,table,clean,False,name,கவிதா ராஜன்,கவிதா ராஜன்,Kavita Rajan,ocr+indictrans2,True,True,0.0,,income_certificate,ta,93.08333333333333
+20_ta_income_certificate,ta,income_certificate,table,clean,False,father_name,ராஜன் கணேசன்,ராஜன் கணேசன்,Rajan Ganesan,ocr+indictrans2,True,True,0.0,,income_certificate,ta,93.08333333333333
+20_ta_income_certificate,ta,income_certificate,table,clean,False,annual_income,271000,271000,271000,ocr+indictrans2,True,True,,,income_certificate,ta,93.08333333333333
+20_ta_income_certificate,ta,income_certificate,table,clean,False,district,சென்னை,சென்னை,Chennai,ocr+indictrans2,True,True,0.0,,income_certificate,ta,93.08333333333333
+20_ta_income_certificate,ta,income_certificate,table,clean,False,issue_date,04/03/2024,04/03/2024,04/03/2024,ocr+indictrans2,True,True,,,income_certificate,ta,93.08333333333333
+21_ta_electricity_bill,ta,electricity_bill,colon,scan,False,consumer_number,512562484370,512562484370,512562484370,ocr+indictrans2,True,True,,,electricity_bill,ta,91.49166666666666
+21_ta_electricity_bill,ta,electricity_bill,colon,scan,False,name,முருகன் செல்வம்,முருகன் செல்வம்,Murugan Wealth,ocr+indictrans2,True,True,0.0,,electricity_bill,ta,91.49166666666666
+21_ta_electricity_bill,ta,electricity_bill,colon,scan,False,units_consumed,67,67,67,ocr+indictrans2,True,True,,,electricity_bill,ta,91.49166666666666
+21_ta_electricity_bill,ta,electricity_bill,colon,scan,False,bill_amount,468,468,468,ocr+indictrans2,True,True,,,electricity_bill,ta,91.49166666666666
+21_ta_electricity_bill,ta,electricity_bill,colon,scan,False,due_date,14/03/2025,14/03/2025,14/03/2025,ocr+indictrans2,True,True,,,electricity_bill,ta,91.49166666666666
+22_ta_application_form,ta,application_form,colon,photo,False,name,முருகன் செல்வம்,முருகன் செல்வம்,Murugan Wealth,ocr+indictrans2,True,True,0.0,,application_form,ta,92.08333333333334
+22_ta_application_form,ta,application_form,colon,photo,False,father_name,செல்வம் ராமசாமி,செல்வம் ராமசாமி,Selvam Ramaswamy,ocr+indictrans2,True,True,0.0,,application_form,ta,92.08333333333334
+22_ta_application_form,ta,application_form,colon,photo,False,date_of_birth,22/11/1982,22/11/1982,22/11/1982,ocr+indictrans2,True,True,,,application_form,ta,92.08333333333334
+22_ta_application_form,ta,application_form,colon,photo,False,mobile,7359410616,7359410616,7359410616,ocr+indictrans2,True,True,,,application_form,ta,92.08333333333334
+22_ta_application_form,ta,application_form,colon,photo,False,district,சென்னை,சென்னை,Chennai,ocr+indictrans2,True,True,0.0,,application_form,ta,92.08333333333334
+22_ta_application_form,ta,application_form,colon,photo,False,pin_code,194898,194898,194898,ocr+indictrans2,True,True,,,application_form,ta,92.08333333333334
+22_ta_application_form,ta,application_form,colon,photo,False,application_number,REG/2025/58465,:REG/2025/58465,:REG/2025/58465,ocr+indictrans2,True,True,,,application_form,ta,92.08333333333334
+23_ta_public_notice,ta,public_notice,table,lowres,False,notice_number,SW/433/2025,SW/433/2025,SW/433/2025,ocr+indictrans2,True,True,,,public_notice,ta,93.71111111111112
+23_ta_public_notice,ta,public_notice,table,lowres,False,date,08/06/2025,08/06/2025,08/06/2025,ocr+indictrans2,True,True,,,public_notice,ta,93.71111111111112
+23_ta_public_notice,ta,public_notice,table,lowres,False,department,கல்வித் துறை,கல்வித் துறை,Department of Education,layout:letterhead,True,True,0.0,,public_notice,ta,93.71111111111112
+23_ta_public_notice,ta,public_notice,table,lowres,False,last_date,27/07/2025,27/07/2025,27/07/2025,ocr+indictrans2,True,True,,,public_notice,ta,93.71111111111112
+23_ta_public_notice,ta,public_notice,table,lowres,False,fee,250,250,250,ocr+indictrans2,True,True,,,public_notice,ta,93.71111111111112
+24_te_application_form,te,application_form,colon,clean,False,name,రవి కుమార్,రవి కుమార్,Ravi Kumar,ocr+indictrans2,True,True,0.0,,application_form,te,83.07833333333333
+24_te_application_form,te,application_form,colon,clean,False,father_name,వెంకట రావు,వెంకట రావు,Venkata Rao,ocr+indictrans2,True,True,0.0,,application_form,te,83.07833333333333
+24_te_application_form,te,application_form,colon,clean,False,date_of_birth,18/10/1975,18/10/1975,18/10/1975,ocr+indictrans2,True,True,,,application_form,te,83.07833333333333
+24_te_application_form,te,application_form,colon,clean,False,mobile,8776583981,8776583981,8776583981,ocr+indictrans2,True,True,,,application_form,te,83.07833333333333
+24_te_application_form,te,application_form,colon,clean,False,district,నల్గొండ,నల్గండ,Nalgonda,ocr+indictrans2,True,True,0.0,,application_form,te,83.07833333333333
+24_te_application_form,te,application_form,colon,clean,False,pin_code,410454,410454,410454,ocr+indictrans2,True,True,,,application_form,te,83.07833333333333
+24_te_application_form,te,application_form,colon,clean,False,application_number,SCH/2025/37317,SCH/2025/37317,SCH/2025/37317,ocr+indictrans2,True,True,,,application_form,te,83.07833333333333
+25_te_public_notice,te,public_notice,colon,scan,False,notice_number,EDU/983/2025,EDU/983/2025,EDU/983/2025,ocr+indictrans2,True,True,,,public_notice,te,74.84232804232803
+25_te_public_notice,te,public_notice,colon,scan,False,date,15/04/2025,15/04/2025,15/04/2025,ocr+indictrans2,True,True,,,public_notice,te,74.84232804232803
+25_te_public_notice,te,public_notice,colon,scan,False,department,గ్రామీణాభివృద్ధి శాఖ,గ్రామీణాభివృద్ధి BQ),Rural Development (BQ),layout:letterhead,False,True,0.15789473684210525,value_split_or_normalisation,public_notice,te,74.84232804232803
+25_te_public_notice,te,public_notice,colon,scan,False,last_date,19/08/2025,19/08/2025,19/08/2025,ocr+indictrans2,True,True,,,public_notice,te,74.84232804232803
+25_te_public_notice,te,public_notice,colon,scan,False,fee,500,500,500,ocr+indictrans2,True,True,,,public_notice,te,74.84232804232803
+26_te_income_certificate,te,income_certificate,table,photo,False,certificate_number,IC/2024/292054,1C/2024/292054,1C/2024/292054,ocr+indictrans2,False,False,,ocr_error,income_certificate,te,82.65833333333335
+26_te_income_certificate,te,income_certificate,table,photo,False,name,రవి కుమార్,రవి కుమార్,Ravi Kumar,ocr+indictrans2,True,True,0.0,,income_certificate,te,82.65833333333335
+26_te_income_certificate,te,income_certificate,table,photo,False,father_name,వెంకట రావు,వెంకట రావు,Venkata Rao,ocr+indictrans2,True,True,0.0,,income_certificate,te,82.65833333333335
+26_te_income_certificate,te,income_certificate,table,photo,False,annual_income,477000,477000,477000,regex,True,True,,,income_certificate,te,82.65833333333335
+26_te_income_certificate,te,income_certificate,table,photo,False,district,గుంటూరు,,,,False,False,1.0,label_value_not_paired,income_certificate,te,82.65833333333335
+26_te_income_certificate,te,income_certificate,table,photo,False,issue_date,18/05/2024,18/05/2024,18/05/2024,ocr+indictrans2,True,True,,,income_certificate,te,82.65833333333335
+27_te_electricity_bill,te,electricity_bill,colon,lowres,False,consumer_number,844241091476,844241091476,844241091476,ocr+indictrans2,True,True,,,electricity_bill,te,89.62291666666667
+27_te_electricity_bill,te,electricity_bill,colon,lowres,False,name,రవి కుమార్,రవి కుమార్,Ravi Kumar,ocr+indictrans2,True,True,0.0,,electricity_bill,te,89.62291666666667
+27_te_electricity_bill,te,electricity_bill,colon,lowres,False,units_consumed,171,171,171,ocr+indictrans2,True,True,,,electricity_bill,te,89.62291666666667
+27_te_electricity_bill,te,electricity_bill,colon,lowres,False,bill_amount,1188,1188,1188,ocr+indictrans2,True,True,,,electricity_bill,te,89.62291666666667
+27_te_electricity_bill,te,electricity_bill,colon,lowres,False,due_date,05/09/2025,05/09/2025,05/09/2025,ocr+indictrans2,True,True,,,electricity_bill,te,89.62291666666667
+28_te_application_form,te,application_form,colon,clean,False,name,శ్రీనివాస్ రెడ్డి,శ్రీనివాస్ రెడ్డి,Srinivas Reddy,ocr+indictrans2,True,True,0.0,,application_form,te,80.96666666666667
+28_te_application_form,te,application_form,colon,clean,False,father_name,నారాయణ రెడ్డి,నారాయణ రెడ్డి,Narayana Reddy,ocr+indictrans2,True,True,0.0,,application_form,te,80.96666666666667
+28_te_application_form,te,application_form,colon,clean,False,date_of_birth,06/10/1989,06/10/1989,06/10/1989,ocr+indictrans2,True,True,,,application_form,te,80.96666666666667
+28_te_application_form,te,application_form,colon,clean,False,mobile,7839598138,7839598138,7839598138,ocr+indictrans2,True,True,,,application_form,te,80.96666666666667
+28_te_application_form,te,application_form,colon,clean,False,district,విశాఖపట్నం,విశాఖపట్నం,Visakhapatnam,ocr+indictrans2,True,True,0.0,,application_form,te,80.96666666666667
+28_te_application_form,te,application_form,colon,clean,False,pin_code,566155,566155,566155,ocr+indictrans2,True,True,,,application_form,te,80.96666666666667
+28_te_application_form,te,application_form,colon,clean,False,application_number,APP/2025/85092,APP/2025/85092,APP/2025/85092,ocr+indictrans2,True,True,,,application_form,te,80.96666666666667
+29_te_public_notice,te,public_notice,table,scan,False,notice_number,EDU/990/2025,EDU/990/2025,EDU/990/2025,ocr+indictrans2,True,True,,,public_notice,te,82.01984126984128
+29_te_public_notice,te,public_notice,table,scan,False,date,23/01/2025,23/01/2025,23/01/2025,ocr+indictrans2,True,True,,,public_notice,te,82.01984126984128
+29_te_public_notice,te,public_notice,table,scan,False,department,విద్యా శాఖ,విద్యా శాఖ,Department of Education,layout:letterhead,True,True,0.0,,public_notice,te,82.01984126984128
+29_te_public_notice,te,public_notice,table,scan,False,last_date,31/08/2025,31/08/2025,31/08/2025,ocr+indictrans2,True,True,,,public_notice,te,82.01984126984128
+29_te_public_notice,te,public_notice,table,scan,False,fee,250,250,250,ocr+indictrans2,True,True,,,public_notice,te,82.01984126984128
+30_kn_application_form,kn,application_form,colon,photo,False,name,ಮಂಜುನಾಥ ಗೌಡ,ಮಂಜುನಾಥ ಗೌಡ,Manjunath Gowda,ocr+indictrans2,True,True,0.0,,application_form,kn,92.3
+30_kn_application_form,kn,application_form,colon,photo,False,father_name,ಬಸವರಾಜ ಗೌಡ,ಬಸವರಾಜ ಗೌಡ,Basavaraj Gowda,ocr+indictrans2,True,True,0.0,,application_form,kn,92.3
+30_kn_application_form,kn,application_form,colon,photo,False,date_of_birth,22/02/1993,22/02/1993,22/02/1993,ocr+indictrans2,True,True,,,application_form,kn,92.3
+30_kn_application_form,kn,application_form,colon,photo,False,mobile,8807478953,8807478953,8807478953,ocr+indictrans2,True,True,,,application_form,kn,92.3
+30_kn_application_form,kn,application_form,colon,photo,False,district,ಮೈಸೂರು,ಮೈಸೂರು,Mysore,ocr+indictrans2,True,True,0.0,,application_form,kn,92.3
+30_kn_application_form,kn,application_form,colon,photo,False,pin_code,475017,475017,475017,regex,True,True,,,application_form,kn,92.3
+30_kn_application_form,kn,application_form,colon,photo,False,application_number,APP/2025/15638,~pp/2025/15638,~pp/2025/15638,ocr+indictrans2,False,False,,ocr_error,application_form,kn,92.3
+31_kn_public_notice,kn,public_notice,colon,lowres,False,notice_number,RD/965/2025,ದಿನಾಂಕ17/05/2025,ದಿನಾಂಕ17/05/2025,ocr+indictrans2,False,False,,ocr_error,public_notice,kn,92.31481481481482
+31_kn_public_notice,kn,public_notice,colon,lowres,False,date,17/05/2025,,,,False,False,,label_mapped_to_wrong_field,public_notice,kn,92.31481481481482
+31_kn_public_notice,kn,public_notice,colon,lowres,False,department,ಗ್ರಾಮೀಣಾಭಿವೃದ್ಧಿ ಇಲಾಖೆ,ಗ್ರಾಮೀಣಾಭಿವೃದ್ಧಿ ಇಲಾಖೆ,Department of Rural Development,layout:letterhead,True,True,0.0,,public_notice,kn,92.31481481481482
+31_kn_public_notice,kn,public_notice,colon,lowres,False,last_date,17/09/2025,17/09/2025,17/09/2025,ocr+indictrans2,True,True,,,public_notice,kn,92.31481481481482
+31_kn_public_notice,kn,public_notice,colon,lowres,False,fee,100,100,100,ocr+indictrans2,True,True,,,public_notice,kn,92.31481481481482
+32_kn_income_certificate,kn,income_certificate,table,clean,False,certificate_number,IC/2025/407120,I¢/2025/407120,I¢/2025/407120,ocr+indictrans2,False,False,,ocr_error,income_certificate,kn,91.04629629629629
+32_kn_income_certificate,kn,income_certificate,table,clean,False,name,ರಮೇಶ್ ನಾಯಕ್,ರಮೇಶ್ ನಾಯಕ್,Ramesh Nayak,ocr+indictrans2,True,True,0.0,,income_certificate,kn,91.04629629629629
+32_kn_income_certificate,kn,income_certificate,table,clean,False,father_name,ಶಿವಪ್ಪ ನಾಯಕ್,ಶಿವಪ್ಪ ನಾಯಕ್,Shivappa Naik,ocr+indictrans2,True,True,0.0,,income_certificate,kn,91.04629629629629
+32_kn_income_certificate,kn,income_certificate,table,clean,False,annual_income,475000,9,9,ocr+indictrans2,False,False,,ocr_error,income_certificate,kn,91.04629629629629
+32_kn_income_certificate,kn,income_certificate,table,clean,False,district,ಧಾರವಾಡ,,,,False,False,1.0,label_translation_unmatched,income_certificate,kn,91.04629629629629
+32_kn_income_certificate,kn,income_certificate,table,clean,False,issue_date,06/01/2025,06/01/2025,06/01/2025,ocr+indictrans2,True,True,,,income_certificate,kn,91.04629629629629
+33_kn_electricity_bill,kn,electricity_bill,colon,scan,False,consumer_number,202176688659,202176688659,202176688659,ocr+indictrans2,True,True,,,electricity_bill,kn,88.43333333333332
+33_kn_electricity_bill,kn,electricity_bill,colon,scan,False,name,ಸುಮಾ ಹೆಗಡೆ,ಸುಮಾ ಹೆಗಡೆ,Suma Hegde,ocr+indictrans2,True,True,0.0,,electricity_bill,kn,88.43333333333332
+33_kn_electricity_bill,kn,electricity_bill,colon,scan,False,units_consumed,426,426,426,ocr+indictrans2,True,True,,,electricity_bill,kn,88.43333333333332
+33_kn_electricity_bill,kn,electricity_bill,colon,scan,False,bill_amount,2712,2712,2712,ocr+indictrans2,True,True,,,electricity_bill,kn,88.43333333333332
+33_kn_electricity_bill,kn,electricity_bill,colon,scan,False,due_date,15/04/2025,15/04/2025,15/04/2025,ocr+indictrans2,True,True,,,electricity_bill,kn,88.43333333333332
+34_kn_application_form,kn,application_form,colon,photo,False,name,ಪ್ರಕಾಶ್ ರಾವ್,ಪ್ರಕಾರ್ ರಾವ್,type rao,ocr+indictrans2,False,True,0.1,ocr_error,application_form,kn,91.02777777777777
+34_kn_application_form,kn,application_form,colon,photo,False,father_name,ನಾಗರಾಜ ರಾವ್,ನಾಗರಾಜ ರಾವ್,Nagaraja Rao,ocr+indictrans2,True,True,0.0,,application_form,kn,91.02777777777777
+34_kn_application_form,kn,application_form,colon,photo,False,date_of_birth,28/07/1980,28/07/1980,28/07/1980,ocr+indictrans2,True,True,,,application_form,kn,91.02777777777777
+34_kn_application_form,kn,application_form,colon,photo,False,mobile,8462224088,8462224088,8462224088,ocr+indictrans2,True,True,,,application_form,kn,91.02777777777777
+34_kn_application_form,kn,application_form,colon,photo,False,district,ಮೈಸೂರು,,,,False,False,1.0,ocr_error,application_form,kn,91.02777777777777
+34_kn_application_form,kn,application_form,colon,photo,False,pin_code,671034,671034,671034,regex,True,True,,,application_form,kn,91.02777777777777
+34_kn_application_form,kn,application_form,colon,photo,False,application_number,SCH/2025/28666,SCH/2025/28606,SCH/2025/28606,ocr+indictrans2,False,False,,ocr_error,application_form,kn,91.02777777777777
+35_kn_public_notice,kn,public_notice,table,lowres,False,notice_number,RD/167/2025,ದಿನಾಂಕ08/05/2025,ದಿನಾಂಕ08/05/2025,ocr+indictrans2,False,False,,ocr_error,public_notice,kn,93.15714285714286
+35_kn_public_notice,kn,public_notice,table,lowres,False,date,08/05/2025,,,,False,False,,label_mapped_to_wrong_field,public_notice,kn,93.15714285714286
+35_kn_public_notice,kn,public_notice,table,lowres,False,department,ಸಮಾಜ ಕಲ್ಯಾಣ ಇಲಾಖೆ,ಸಮಾಜ ಕಲ್ಯಾಣ ಇಲುಖೆ,Social welfare,layout:letterhead,True,True,0.0,,public_notice,kn,93.15714285714286
+35_kn_public_notice,kn,public_notice,table,lowres,False,last_date,16/09/2025,16/09/2025,16/09/2025,ocr+indictrans2,True,True,,,public_notice,kn,93.15714285714286
+35_kn_public_notice,kn,public_notice,table,lowres,False,fee,200,200,200,ocr+indictrans2,True,True,,,public_notice,kn,93.15714285714286
+36_gu_application_form,gu,application_form,colon,clean,False,name,જયેશ દેસાઈ,જયેશ દેસાઈ,Jayesh Desai,ocr+indictrans2,True,True,0.0,,application_form,gu,89.77666666666667
+36_gu_application_form,gu,application_form,colon,clean,False,father_name,દિનેશભાઈ દેસાઈ,દિનેશભાઈ દેસાઈ,Dineshbhai Desai,ocr+indictrans2,True,True,0.0,,application_form,gu,89.77666666666667
+36_gu_application_form,gu,application_form,colon,clean,False,date_of_birth,04/09/1975,04/09/1975,04/09/1975,ocr+indictrans2,True,True,,,application_form,gu,89.77666666666667
+36_gu_application_form,gu,application_form,colon,clean,False,mobile,7073877030,7073877030,7073877030,ocr+indictrans2,True,True,,,application_form,gu,89.77666666666667
+36_gu_application_form,gu,application_form,colon,clean,False,district,અમદાવાદ,અમદાવાદ,Ahmedabad,ocr+indictrans2,True,True,0.0,,application_form,gu,89.77666666666667
+36_gu_application_form,gu,application_form,colon,clean,False,pin_code,746632,746632,746632,ocr+indictrans2,True,True,,,application_form,gu,89.77666666666667
+36_gu_application_form,gu,application_form,colon,clean,False,application_number,APP/2025/30403,App/2025/30403,App/2025/30403,ocr+indictrans2,True,True,,,application_form,gu,89.77666666666667
+37_gu_public_notice,gu,public_notice,colon,scan,True,notice_number,SW/968/2025,3]///968/ર0રપ,3]///968/ર0રપ,ocr+indictrans2,False,False,,ocr_error,public_notice,gu,85.71111111111111
+37_gu_public_notice,gu,public_notice,colon,scan,True,date,06/04/2025,06/04/202પ,06/04/202પ,ocr+indictrans2,False,False,,ocr_error,public_notice,gu,85.71111111111111
+37_gu_public_notice,gu,public_notice,colon,scan,True,department,ગ્રામ વિકાસ વિભાગ,ગ્રામ વિકાસ વિભાગ,Rural Development Department,layout:letterhead,True,True,0.0,,public_notice,gu,85.71111111111111
+37_gu_public_notice,gu,public_notice,colon,scan,True,last_date,05/11/2025,04/29/2024,04/29/2024,ocr+indictrans2,False,False,,ocr_error,public_notice,gu,85.71111111111111
+37_gu_public_notice,gu,public_notice,colon,scan,True,fee,200,,,,False,False,,ocr_error,public_notice,gu,85.71111111111111
+38_gu_income_certificate,gu,income_certificate,table,photo,True,certificate_number,IC/2024/841435,,,,False,False,,ocr_error,income_certificate,gu,82.57777777777777
+38_gu_income_certificate,gu,income_certificate,table,photo,True,name,જયેશ દેસાઈ,wae દેસાઈ,Wee Desai,ocr+indictrans2,False,False,0.4,ocr_error,income_certificate,gu,82.57777777777777
+38_gu_income_certificate,gu,income_certificate,table,photo,True,father_name,દિનેશભાઈ દેસાઈ,દિનેથાભાઈ દેસાઈ,Dineethbhai Desai,ocr+indictrans2,False,True,0.14285714285714285,ocr_error,income_certificate,gu,82.57777777777777
+38_gu_income_certificate,gu,income_certificate,table,photo,True,annual_income,259000,,,,False,False,,ocr_error,income_certificate,gu,82.57777777777777
+38_gu_income_certificate,gu,income_certificate,table,photo,True,district,વડોદરા,વડોદરા,Vadodara,ocr+indictrans2,True,True,0.0,,income_certificate,gu,82.57777777777777
+38_gu_income_certificate,gu,income_certificate,table,photo,True,issue_date,23/09/2024,23/06/2028,23/06/2028,ocr+indictrans2,False,False,,ocr_error,income_certificate,gu,82.57777777777777
+39_gu_electricity_bill,gu,electricity_bill,colon,lowres,True,consumer_number,565624520287,5656ર45ર0ર87,5656ર45ર0ર87,ocr+indictrans2,False,False,,ocr_error,electricity_bill,gu,87.74374999999999
+39_gu_electricity_bill,gu,electricity_bill,colon,lowres,True,name,નિશા શાહ,Fen ene,Fen ene,ocr+indictrans2,False,False,0.8571428571428571,ocr_error,electricity_bill,gu,87.74374999999999
+39_gu_electricity_bill,gu,electricity_bill,colon,lowres,True,units_consumed,515,515,515,ocr+indictrans2,True,True,,,electricity_bill,gu,87.74374999999999
+39_gu_electricity_bill,gu,electricity_bill,colon,lowres,True,bill_amount,3338,3338,3338,ocr+indictrans2,True,True,,,electricity_bill,gu,87.74374999999999
+39_gu_electricity_bill,gu,electricity_bill,colon,lowres,True,due_date,04/09/2025,04/09/202પ,04/09/202પ,ocr+indictrans2,False,False,,ocr_error,electricity_bill,gu,87.74374999999999
+40_gu_application_form,gu,application_form,colon,clean,False,name,કિંજલ મહેતા,કિંજલ મહેતા,Kinjal Mehta,ocr+indictrans2,True,True,0.0,,application_form,gu,92.74333333333333
+40_gu_application_form,gu,application_form,colon,clean,False,father_name,કિરીટભાઈ મહેતા,કિરીટભાઈ મહેતા,Kiritbhai Mehta,ocr+indictrans2,True,True,0.0,,application_form,gu,92.74333333333333
+40_gu_application_form,gu,application_form,colon,clean,False,date_of_birth,12/04/1980,12/04/1980,12/04/1980,ocr+indictrans2,True,True,,,application_form,gu,92.74333333333333
+40_gu_application_form,gu,application_form,colon,clean,False,mobile,9568553113,9568553113,9568553113,ocr+indictrans2,True,True,,,application_form,gu,92.74333333333333
+40_gu_application_form,gu,application_form,colon,clean,False,district,સુરત,સુરત,Surat,ocr+indictrans2,True,True,0.0,,application_form,gu,92.74333333333333
+40_gu_application_form,gu,application_form,colon,clean,False,pin_code,769227,769227,769227,ocr+indictrans2,True,True,,,application_form,gu,92.74333333333333
+40_gu_application_form,gu,application_form,colon,clean,False,application_number,APP/2025/60683,App/2025/60683,App/2025/60683,ocr+indictrans2,True,True,,,application_form,gu,92.74333333333333
+41_gu_public_notice,gu,public_notice,table,scan,True,notice_number,RD/368/2025,[ર[)/368/ર0રપ,[ર[)/368/ર0રપ,ocr+indictrans2,False,False,,ocr_error,public_notice,gu,80.53666666666666
+41_gu_public_notice,gu,public_notice,table,scan,True,date,23/04/2025,23/08/2024,23/08/2024,ocr+indictrans2,False,False,,ocr_error,public_notice,gu,80.53666666666666
+41_gu_public_notice,gu,public_notice,table,scan,True,department,શિક્ષણ વિભાગ,શિક્ષણ વિભાગ,Department of Education,layout:letterhead,True,True,0.0,,public_notice,gu,80.53666666666666
+41_gu_public_notice,gu,public_notice,table,scan,True,last_date,25/09/2025,24/06/2024,24/06/2024,ocr+indictrans2,False,False,,ocr_error,public_notice,gu,80.53666666666666
+41_gu_public_notice,gu,public_notice,table,scan,True,fee,1000,8008,8008,regex,False,False,,ocr_error,public_notice,gu,80.53666666666666

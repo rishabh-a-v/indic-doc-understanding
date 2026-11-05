@@ -1,0 +1,102 @@
+{
+ "headline": {
+  "documents": 42,
+  "gold_fields": 245,
+  "questions": 168,
+  "field_accuracy_strict": 0.751,
+  "field_accuracy_lenient": 0.763,
+  "documents_fully_correct": 0.381,
+  "doc_type_accuracy": 0.952,
+  "language_id_accuracy": 1.0,
+  "text_field_mean_cer": 0.186,
+  "qa_accuracy": 0.792,
+  "qa_exact_match": 0.774,
+  "qa_token_f1": 0.835,
+  "patram": false,
+  "seconds_total": 587.9,
+  "seconds_per_doc": 14.0,
+  "qa_accuracy_without_router": 0.548
+ },
+ "field_by_language": {
+  "bn": 0.743,
+  "gu": 0.543,
+  "hi": 0.629,
+  "kn": 0.686,
+  "mr": 0.743,
+  "ta": 1.0,
+  "te": 0.914
+ },
+ "field_by_degradation": {
+  "clean": 0.865,
+  "lowres": 0.76,
+  "photo": 0.652,
+  "scan": 0.709
+ },
+ "field_by_layout": {
+  "colon": 0.815,
+  "table": 0.61
+ },
+ "field_by_native_digits": {
+  "False": 0.825,
+  "True": 0.5
+ },
+ "field_by_field": {
+  "annual_income": 0.571,
+  "application_number": 0.714,
+  "bill_amount": 0.857,
+  "certificate_number": 0.143,
+  "consumer_number": 0.571,
+  "date": 0.714,
+  "date_of_birth": 1.0,
+  "department": 0.786,
+  "district": 0.714,
+  "due_date": 0.714,
+  "father_name": 0.714,
+  "fee": 0.857,
+  "issue_date": 0.571,
+  "last_date": 0.786,
+  "mobile": 0.929,
+  "name": 0.821,
+  "notice_number": 0.429,
+  "pin_code": 0.929,
+  "units_consumed": 1.0
+ },
+ "field_by_doc_type": {
+  "application_form": 0.878,
+  "electricity_bill": 0.771,
+  "income_certificate": 0.5,
+  "public_notice": 0.714
+ },
+ "qa_by_language": {
+  "bn": 0.958,
+  "gu": 0.583,
+  "hi": 0.583,
+  "kn": 0.792,
+  "mr": 0.667,
+  "ta": 1.0,
+  "te": 0.958
+ },
+ "qa_by_question_language": {
+  "en": 0.77,
+  "native": 0.857
+ },
+ "qa_by_tool": {
+  "field_lookup": 0.84,
+  "rag_extractive": 0.167
+ },
+ "qa_tool_usage": {
+  "field_lookup": 156,
+  "rag_extractive": 12
+ },
+ "field_errors": {
+  "ocr_error": 46,
+  "label_value_not_paired": 7,
+  "label_mapped_to_wrong_field": 4,
+  "label_translation_unmatched": 2,
+  "value_split_or_normalisation": 2
+ },
+ "qa_errors": {
+  "extracted_field_wrong": 25,
+  "rag_reader_wrong": 10
+ }
+}

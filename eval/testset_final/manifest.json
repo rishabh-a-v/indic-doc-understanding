@@ -1,0 +1,2766 @@
+[
+ {
+  "id": "00_hi_application_form",
+  "image": "00_hi_application_form.png",
+  "lang": "hi",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "clean",
+  "fields": {
+   "name": [
+    "प्रिया वर्मा",
+    "Priya Verma"
+   ],
+   "father_name": [
+    "सुरेश वर्मा",
+    "Suresh Verma"
+   ],
+   "date_of_birth": [
+    "22/02/1986"
+   ],
+   "mobile": [
+    "7146881973"
+   ],
+   "district": [
+    "पटना",
+    "Patna"
+   ],
+   "pin_code": [
+    "552121"
+   ],
+   "application_number": [
+    "REG/2025/90375"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the PIN code?",
+    "field": "pin_code",
+    "lang": "en",
+    "gold": [
+     "552121"
+    ]
+   },
+   {
+    "q": "Who submitted this application?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "प्रिया वर्मा",
+     "Priya Verma"
+    ]
+   },
+   {
+    "q": "What is the application number?",
+    "field": "application_number",
+    "lang": "en",
+    "gold": [
+     "REG/2025/90375"
+    ]
+   },
+   {
+    "q": "आवेदक का नाम क्या है?",
+    "field": "name",
+    "lang": "hi",
+    "gold": [
+     "प्रिया वर्मा",
+     "Priya Verma"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "01_hi_public_notice",
+  "image": "01_hi_public_notice.png",
+  "lang": "hi",
+  "doc_type": "public_notice",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "scan",
+  "fields": {
+   "notice_number": [
+    "RD/793/2025"
+   ],
+   "date": [
+    "23/01/2025"
+   ],
+   "department": [
+    "ग्रामीण विकास विभाग",
+    "Rural Development Department"
+   ],
+   "last_date": [
+    "29/10/2025"
+   ],
+   "fee": [
+    "250"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Which department issued this notice?",
+    "field": "department",
+    "lang": "en",
+    "gold": [
+     "ग्रामीण विकास विभाग",
+     "Rural Development Department"
+    ]
+   },
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "RD/793/2025"
+    ]
+   },
+   {
+    "q": "How much is the application fee?",
+    "field": "fee",
+    "lang": "en",
+    "gold": [
+     "250"
+    ]
+   },
+   {
+    "q": "आवेदन की अंतिम तिथि क्या है?",
+    "field": "last_date",
+    "lang": "hi",
+    "gold": [
+     "29/10/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "02_hi_income_certificate",
+  "image": "02_hi_income_certificate.png",
+  "lang": "hi",
+  "doc_type": "income_certificate",
+  "layout": "table",
+  "native_digits": false,
+  "degradation": "photo",
+  "fields": {
+   "certificate_number": [
+    "IC/2024/235412"
+   ],
+   "name": [
+    "प्रिया वर्मा",
+    "Priya Verma"
+   ],
+   "father_name": [
+    "सुरेश वर्मा",
+    "Suresh Verma"
+   ],
+   "annual_income": [
+    "158000"
+   ],
+   "district": [
+    "भोपाल",
+    "Bhopal"
+   ],
+   "issue_date": [
+    "13/06/2024"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the certificate number?",
+    "field": "certificate_number",
+    "lang": "en",
+    "gold": [
+     "IC/2024/235412"
+    ]
+   },
+   {
+    "q": "What is the annual income stated?",
+    "field": "annual_income",
+    "lang": "en",
+    "gold": [
+     "158000"
+    ]
+   },
+   {
+    "q": "Whose income certificate is this?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "प्रिया वर्मा",
+     "Priya Verma"
+    ]
+   },
+   {
+    "q": "वार्षिक आय कितनी है?",
+    "field": "annual_income",
+    "lang": "hi",
+    "gold": [
+     "158000"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "03_hi_electricity_bill",
+  "image": "03_hi_electricity_bill.png",
+  "lang": "hi",
+  "doc_type": "electricity_bill",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "lowres",
+  "fields": {
+   "consumer_number": [
+    "124906528630"
+   ],
+   "name": [
+    "सुनीता देवी",
+    "Sunita Devi"
+   ],
+   "units_consumed": [
+    "256"
+   ],
+   "bill_amount": [
+    "1675"
+   ],
+   "due_date": [
+    "07/10/2025"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the total bill amount?",
+    "field": "bill_amount",
+    "lang": "en",
+    "gold": [
+     "1675"
+    ]
+   },
+   {
+    "q": "In whose name is the connection?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "सुनीता देवी",
+     "Sunita Devi"
+    ]
+   },
+   {
+    "q": "What is the consumer number?",
+    "field": "consumer_number",
+    "lang": "en",
+    "gold": [
+     "124906528630"
+    ]
+   },
+   {
+    "q": "बिल की राशि कितनी है?",
+    "field": "bill_amount",
+    "lang": "hi",
+    "gold": [
+     "1675"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "04_hi_application_form",
+  "image": "04_hi_application_form.png",
+  "lang": "hi",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "clean",
+  "fields": {
+   "name": [
+    "सुनीता देवी",
+    "Sunita Devi"
+   ],
+   "father_name": [
+    "राम प्रसाद",
+    "Ram Prasad"
+   ],
+   "date_of_birth": [
+    "29/04/1980"
+   ],
+   "mobile": [
+    "7422623857"
+   ],
+   "district": [
+    "लखनऊ",
+    "Lucknow"
+   ],
+   "pin_code": [
+    "355269"
+   ],
+   "application_number": [
+    "SCH/2025/25363"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Which mobile number is mentioned in the form?",
+    "field": "mobile",
+    "lang": "en",
+    "gold": [
+     "7422623857"
+    ]
+   },
+   {
+    "q": "Which district is the applicant from?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "लखनऊ",
+     "Lucknow"
+    ]
+   },
+   {
+    "q": "What is the PIN code?",
+    "field": "pin_code",
+    "lang": "en",
+    "gold": [
+     "355269"
+    ]
+   },
+   {
+    "q": "आवेदक का नाम क्या है?",
+    "field": "name",
+    "lang": "hi",
+    "gold": [
+     "सुनीता देवी",
+     "Sunita Devi"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "05_hi_public_notice",
+  "image": "05_hi_public_notice.png",
+  "lang": "hi",
+  "doc_type": "public_notice",
+  "layout": "table",
+  "native_digits": true,
+  "degradation": "scan",
+  "fields": {
+   "notice_number": [
+    "SW/524/2025"
+   ],
+   "date": [
+    "05/04/2025"
+   ],
+   "department": [
+    "समाज कल्याण विभाग",
+    "Social Welfare Department"
+   ],
+   "last_date": [
+    "14/11/2025"
+   ],
+   "fee": [
+    "100"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the date of the notice?",
+    "field": "date",
+    "lang": "en",
+    "gold": [
+     "05/04/2025"
+    ]
+   },
+   {
+    "q": "What is the last date to apply?",
+    "field": "last_date",
+    "lang": "en",
+    "gold": [
+     "14/11/2025"
+    ]
+   },
+   {
+    "q": "How much is the application fee?",
+    "field": "fee",
+    "lang": "en",
+    "gold": [
+     "100"
+    ]
+   },
+   {
+    "q": "आवेदन की अंतिम तिथि क्या है?",
+    "field": "last_date",
+    "lang": "hi",
+    "gold": [
+     "14/11/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "06_mr_application_form",
+  "image": "06_mr_application_form.png",
+  "lang": "mr",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": true,
+  "degradation": "photo",
+  "fields": {
+   "name": [
+    "गणेश जाधव",
+    "Ganesh Jadhav"
+   ],
+   "father_name": [
+    "रामदास जाधव",
+    "Ramdas Jadhav"
+   ],
+   "date_of_birth": [
+    "31/03/2005"
+   ],
+   "mobile": [
+    "7647176418"
+   ],
+   "district": [
+    "नाशिक",
+    "Nashik"
+   ],
+   "pin_code": [
+    "417265"
+   ],
+   "application_number": [
+    "REG/2025/52021"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Which district is the applicant from?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "नाशिक",
+     "Nashik"
+    ]
+   },
+   {
+    "q": "Who submitted this application?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "गणेश जाधव",
+     "Ganesh Jadhav"
+    ]
+   },
+   {
+    "q": "What is the application number?",
+    "field": "application_number",
+    "lang": "en",
+    "gold": [
+     "REG/2025/52021"
+    ]
+   },
+   {
+    "q": "अर्जदाराचे नाव काय आहे?",
+    "field": "name",
+    "lang": "mr",
+    "gold": [
+     "गणेश जाधव",
+     "Ganesh Jadhav"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "07_mr_public_notice",
+  "image": "07_mr_public_notice.png",
+  "lang": "mr",
+  "doc_type": "public_notice",
+  "layout": "colon",
+  "native_digits": true,
+  "degradation": "lowres",
+  "fields": {
+   "notice_number": [
+    "EDU/783/2025"
+   ],
+   "date": [
+    "01/04/2025"
+   ],
+   "department": [
+    "समाज कल्याण विभाग",
+    "Social Welfare Department"
+   ],
+   "last_date": [
+    "25/12/2025"
+   ],
+   "fee": [
+    "250"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Till when can candidates apply?",
+    "field": "last_date",
+    "lang": "en",
+    "gold": [
+     "25/12/2025"
+    ]
+   },
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "EDU/783/2025"
+    ]
+   },
+   {
+    "q": "Which department issued this notice?",
+    "field": "department",
+    "lang": "en",
+    "gold": [
+     "समाज कल्याण विभाग",
+     "Social Welfare Department"
+    ]
+   },
+   {
+    "q": "अर्ज करण्याची शेवटची तारीख कोणती आहे?",
+    "field": "last_date",
+    "lang": "mr",
+    "gold": [
+     "25/12/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "08_mr_income_certificate",
+  "image": "08_mr_income_certificate.png",
+  "lang": "mr",
+  "doc_type": "income_certificate",
+  "layout": "table",
+  "native_digits": false,
+  "degradation": "clean",
+  "fields": {
+   "certificate_number": [
+    "IC/2023/626024"
+   ],
+   "name": [
+    "गणेश जाधव",
+    "Ganesh Jadhav"
+   ],
+   "father_name": [
+    "रामदास जाधव",
+    "Ramdas Jadhav"
+   ],
+   "annual_income": [
+    "320000"
+   ],
+   "district": [
+    "सातारा",
+    "Satara"
+   ],
+   "issue_date": [
+    "26/07/2024"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the father's name on the certificate?",
+    "field": "father_name",
+    "lang": "en",
+    "gold": [
+     "रामदास जाधव",
+     "Ramdas Jadhav"
+    ]
+   },
+   {
+    "q": "Which district is mentioned on the certificate?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "सातारा",
+     "Satara"
+    ]
+   },
+   {
+    "q": "What is the certificate number?",
+    "field": "certificate_number",
+    "lang": "en",
+    "gold": [
+     "IC/2023/626024"
+    ]
+   },
+   {
+    "q": "वार्षिक उत्पन्न किती आहे?",
+    "field": "annual_income",
+    "lang": "mr",
+    "gold": [
+     "320000"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "09_mr_electricity_bill",
+  "image": "09_mr_electricity_bill.png",
+  "lang": "mr",
+  "doc_type": "electricity_bill",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "scan",
+  "fields": {
+   "consumer_number": [
+    "899430141900"
+   ],
+   "name": [
+    "पूजा कुलकर्णी",
+    "Pooja Kulkarni"
+   ],
+   "units_consumed": [
+    "466"
+   ],
+   "bill_amount": [
+    "2987"
+   ],
+   "due_date": [
+    "13/10/2025"
+   ]
+  },
+  "questions": [
+   {
+    "q": "By when should the bill be paid?",
+    "field": "due_date",
+    "lang": "en",
+    "gold": [
+     "13/10/2025"
+    ]
+   },
+   {
+    "q": "What is the consumer number?",
+    "field": "consumer_number",
+    "lang": "en",
+    "gold": [
+     "899430141900"
+    ]
+   },
+   {
+    "q": "What is the total bill amount?",
+    "field": "bill_amount",
+    "lang": "en",
+    "gold": [
+     "2987"
+    ]
+   },
+   {
+    "q": "बिलाची रक्कम किती आहे?",
+    "field": "bill_amount",
+    "lang": "mr",
+    "gold": [
+     "2987"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "10_mr_application_form",
+  "image": "10_mr_application_form.png",
+  "lang": "mr",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": true,
+  "degradation": "photo",
+  "fields": {
+   "name": [
+    "गणेश जाधव",
+    "Ganesh Jadhav"
+   ],
+   "father_name": [
+    "रामदास जाधव",
+    "Ramdas Jadhav"
+   ],
+   "date_of_birth": [
+    "12/01/1995"
+   ],
+   "mobile": [
+    "9682543479"
+   ],
+   "district": [
+    "नाशिक",
+    "Nashik"
+   ],
+   "pin_code": [
+    "511243"
+   ],
+   "application_number": [
+    "APP/2025/72806"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Which district is the applicant from?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "नाशिक",
+     "Nashik"
+    ]
+   },
+   {
+    "q": "What is the application number?",
+    "field": "application_number",
+    "lang": "en",
+    "gold": [
+     "APP/2025/72806"
+    ]
+   },
+   {
+    "q": "When was the applicant born?",
+    "field": "date_of_birth",
+    "lang": "en",
+    "gold": [
+     "12/01/1995"
+    ]
+   },
+   {
+    "q": "अर्जदाराचे नाव काय आहे?",
+    "field": "name",
+    "lang": "mr",
+    "gold": [
+     "गणेश जाधव",
+     "Ganesh Jadhav"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "11_mr_public_notice",
+  "image": "11_mr_public_notice.png",
+  "lang": "mr",
+  "doc_type": "public_notice",
+  "layout": "table",
+  "native_digits": true,
+  "degradation": "lowres",
+  "fields": {
+   "notice_number": [
+    "RD/851/2025"
+   ],
+   "date": [
+    "02/01/2025"
+   ],
+   "department": [
+    "समाज कल्याण विभाग",
+    "Social Welfare Department"
+   ],
+   "last_date": [
+    "23/11/2025"
+   ],
+   "fee": [
+    "1000"
+   ]
+  },
+  "questions": [
+   {
+    "q": "On what date was the notice published?",
+    "field": "date",
+    "lang": "en",
+    "gold": [
+     "02/01/2025"
+    ]
+   },
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "RD/851/2025"
+    ]
+   },
+   {
+    "q": "How much is the application fee?",
+    "field": "fee",
+    "lang": "en",
+    "gold": [
+     "1000"
+    ]
+   },
+   {
+    "q": "अर्ज करण्याची शेवटची तारीख कोणती आहे?",
+    "field": "last_date",
+    "lang": "mr",
+    "gold": [
+     "23/11/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "12_bn_application_form",
+  "image": "12_bn_application_form.png",
+  "lang": "bn",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "clean",
+  "fields": {
+   "name": [
+    "সুমন দাস",
+    "Suman Das"
+   ],
+   "father_name": [
+    "অশোক দাস",
+    "Ashok Das"
+   ],
+   "date_of_birth": [
+    "25/04/1985"
+   ],
+   "mobile": [
+    "8270633172"
+   ],
+   "district": [
+    "নদিয়া",
+    "Nadia"
+   ],
+   "pin_code": [
+    "396054"
+   ],
+   "application_number": [
+    "SCH/2025/96093"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What phone number can the applicant be reached on?",
+    "field": "mobile",
+    "lang": "en",
+    "gold": [
+     "8270633172"
+    ]
+   },
+   {
+    "q": "What is the PIN code?",
+    "field": "pin_code",
+    "lang": "en",
+    "gold": [
+     "396054"
+    ]
+   },
+   {
+    "q": "What is the application number?",
+    "field": "application_number",
+    "lang": "en",
+    "gold": [
+     "SCH/2025/96093"
+    ]
+   },
+   {
+    "q": "আবেদনকারীর নাম কী?",
+    "field": "name",
+    "lang": "bn",
+    "gold": [
+     "সুমন দাস",
+     "Suman Das"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "13_bn_public_notice",
+  "image": "13_bn_public_notice.png",
+  "lang": "bn",
+  "doc_type": "public_notice",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "scan",
+  "fields": {
+   "notice_number": [
+    "EDU/133/2025"
+   ],
+   "date": [
+    "12/05/2025"
+   ],
+   "department": [
+    "গ্রামোন্নয়ন বিভাগ",
+    "Rural Development Department"
+   ],
+   "last_date": [
+    "13/12/2025"
+   ],
+   "fee": [
+    "500"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Which department issued this notice?",
+    "field": "department",
+    "lang": "en",
+    "gold": [
+     "গ্রামোন্নয়ন বিভাগ",
+     "Rural Development Department"
+    ]
+   },
+   {
+    "q": "Till when can candidates apply?",
+    "field": "last_date",
+    "lang": "en",
+    "gold": [
+     "13/12/2025"
+    ]
+   },
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "EDU/133/2025"
+    ]
+   },
+   {
+    "q": "আবেদনের শেষ তারিখ কবে?",
+    "field": "last_date",
+    "lang": "bn",
+    "gold": [
+     "13/12/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "14_bn_income_certificate",
+  "image": "14_bn_income_certificate.png",
+  "lang": "bn",
+  "doc_type": "income_certificate",
+  "layout": "table",
+  "native_digits": true,
+  "degradation": "photo",
+  "fields": {
+   "certificate_number": [
+    "IC/2025/646561"
+   ],
+   "name": [
+    "সুমন দাস",
+    "Suman Das"
+   ],
+   "father_name": [
+    "অশোক দাস",
+    "Ashok Das"
+   ],
+   "annual_income": [
+    "422000"
+   ],
+   "district": [
+    "হাওড়া",
+    "Howrah"
+   ],
+   "issue_date": [
+    "13/01/2024"
+   ]
+  },
+  "questions": [
+   {
+    "q": "When was the certificate issued?",
+    "field": "issue_date",
+    "lang": "en",
+    "gold": [
+     "13/01/2024"
+    ]
+   },
+   {
+    "q": "What is the certificate number?",
+    "field": "certificate_number",
+    "lang": "en",
+    "gold": [
+     "IC/2025/646561"
+    ]
+   },
+   {
+    "q": "What is the annual income stated?",
+    "field": "annual_income",
+    "lang": "en",
+    "gold": [
+     "422000"
+    ]
+   },
+   {
+    "q": "বার্ষিক আয় কত?",
+    "field": "annual_income",
+    "lang": "bn",
+    "gold": [
+     "422000"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "15_bn_electricity_bill",
+  "image": "15_bn_electricity_bill.png",
+  "lang": "bn",
+  "doc_type": "electricity_bill",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "lowres",
+  "fields": {
+   "consumer_number": [
+    "909604220484"
+   ],
+   "name": [
+    "অরিন্দম ঘোষ",
+    "Arindam Ghosh"
+   ],
+   "units_consumed": [
+    "337"
+   ],
+   "bill_amount": [
+    "1928"
+   ],
+   "due_date": [
+    "07/08/2025"
+   ]
+  },
+  "questions": [
+   {
+    "q": "How many units of electricity were used?",
+    "field": "units_consumed",
+    "lang": "en",
+    "gold": [
+     "337"
+    ]
+   },
+   {
+    "q": "What is the consumer number?",
+    "field": "consumer_number",
+    "lang": "en",
+    "gold": [
+     "909604220484"
+    ]
+   },
+   {
+    "q": "By when should the bill be paid?",
+    "field": "due_date",
+    "lang": "en",
+    "gold": [
+     "07/08/2025"
+    ]
+   },
+   {
+    "q": "বিলের পরিমাণ কত?",
+    "field": "bill_amount",
+    "lang": "bn",
+    "gold": [
+     "1928"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "16_bn_application_form",
+  "image": "16_bn_application_form.png",
+  "lang": "bn",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "clean",
+  "fields": {
+   "name": [
+    "সুমন দাস",
+    "Suman Das"
+   ],
+   "father_name": [
+    "অশোক দাস",
+    "Ashok Das"
+   ],
+   "date_of_birth": [
+    "17/05/2002"
+   ],
+   "mobile": [
+    "7820466832"
+   ],
+   "district": [
+    "বর্ধমান",
+    "Bardhaman"
+   ],
+   "pin_code": [
+    "659580"
+   ],
+   "application_number": [
+    "SCH/2025/17152"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What phone number can the applicant be reached on?",
+    "field": "mobile",
+    "lang": "en",
+    "gold": [
+     "7820466832"
+    ]
+   },
+   {
+    "q": "What is the applicant's name?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "সুমন দাস",
+     "Suman Das"
+    ]
+   },
+   {
+    "q": "Which district is the applicant from?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "বর্ধমান",
+     "Bardhaman"
+    ]
+   },
+   {
+    "q": "আবেদনকারীর নাম কী?",
+    "field": "name",
+    "lang": "bn",
+    "gold": [
+     "সুমন দাস",
+     "Suman Das"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "17_bn_public_notice",
+  "image": "17_bn_public_notice.png",
+  "lang": "bn",
+  "doc_type": "public_notice",
+  "layout": "table",
+  "native_digits": false,
+  "degradation": "scan",
+  "fields": {
+   "notice_number": [
+    "SW/162/2025"
+   ],
+   "date": [
+    "07/03/2025"
+   ],
+   "department": [
+    "গ্রামোন্নয়ন বিভাগ",
+    "Rural Development Department"
+   ],
+   "last_date": [
+    "16/08/2025"
+   ],
+   "fee": [
+    "1000"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "SW/162/2025"
+    ]
+   },
+   {
+    "q": "How much is the application fee?",
+    "field": "fee",
+    "lang": "en",
+    "gold": [
+     "1000"
+    ]
+   },
+   {
+    "q": "Which department issued this notice?",
+    "field": "department",
+    "lang": "en",
+    "gold": [
+     "গ্রামোন্নয়ন বিভাগ",
+     "Rural Development Department"
+    ]
+   },
+   {
+    "q": "আবেদনের শেষ তারিখ কবে?",
+    "field": "last_date",
+    "lang": "bn",
+    "gold": [
+     "16/08/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "18_ta_application_form",
+  "image": "18_ta_application_form.png",
+  "lang": "ta",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "photo",
+  "fields": {
+   "name": [
+    "கார்த்திக் வேலு",
+    "Karthik Velu"
+   ],
+   "father_name": [
+    "வேலு முருகேசன்",
+    "Velu Murugesan"
+   ],
+   "date_of_birth": [
+    "01/07/1994"
+   ],
+   "mobile": [
+    "7791582397"
+   ],
+   "district": [
+    "மதுரை",
+    "Madurai"
+   ],
+   "pin_code": [
+    "328522"
+   ],
+   "application_number": [
+    "REG/2025/23167"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Which district is the applicant from?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "மதுரை",
+     "Madurai"
+    ]
+   },
+   {
+    "q": "Who submitted this application?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "கார்த்திக் வேலு",
+     "Karthik Velu"
+    ]
+   },
+   {
+    "q": "When was the applicant born?",
+    "field": "date_of_birth",
+    "lang": "en",
+    "gold": [
+     "01/07/1994"
+    ]
+   },
+   {
+    "q": "விண்ணப்பதாரரின் பெயர் என்ன?",
+    "field": "name",
+    "lang": "ta",
+    "gold": [
+     "கார்த்திக் வேலு",
+     "Karthik Velu"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "19_ta_public_notice",
+  "image": "19_ta_public_notice.png",
+  "lang": "ta",
+  "doc_type": "public_notice",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "lowres",
+  "fields": {
+   "notice_number": [
+    "EDU/637/2025"
+   ],
+   "date": [
+    "28/02/2025"
+   ],
+   "department": [
+    "கல்வித் துறை",
+    "Education Department"
+   ],
+   "last_date": [
+    "23/12/2025"
+   ],
+   "fee": [
+    "500"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Which department issued this notice?",
+    "field": "department",
+    "lang": "en",
+    "gold": [
+     "கல்வித் துறை",
+     "Education Department"
+    ]
+   },
+   {
+    "q": "How much is the application fee?",
+    "field": "fee",
+    "lang": "en",
+    "gold": [
+     "500"
+    ]
+   },
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "EDU/637/2025"
+    ]
+   },
+   {
+    "q": "விண்ணப்பிக்க கடைசி தேதி எது?",
+    "field": "last_date",
+    "lang": "ta",
+    "gold": [
+     "23/12/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "20_ta_income_certificate",
+  "image": "20_ta_income_certificate.png",
+  "lang": "ta",
+  "doc_type": "income_certificate",
+  "layout": "table",
+  "native_digits": false,
+  "degradation": "clean",
+  "fields": {
+   "certificate_number": [
+    "IC/2023/140097"
+   ],
+   "name": [
+    "கவிதா ராஜன்",
+    "Kavitha Rajan"
+   ],
+   "father_name": [
+    "ராஜன் கணேசன்",
+    "Rajan Ganesan"
+   ],
+   "annual_income": [
+    "271000"
+   ],
+   "district": [
+    "சென்னை",
+    "Chennai"
+   ],
+   "issue_date": [
+    "04/03/2024"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the certificate number?",
+    "field": "certificate_number",
+    "lang": "en",
+    "gold": [
+     "IC/2023/140097"
+    ]
+   },
+   {
+    "q": "When was the certificate issued?",
+    "field": "issue_date",
+    "lang": "en",
+    "gold": [
+     "04/03/2024"
+    ]
+   },
+   {
+    "q": "Which district is mentioned on the certificate?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "சென்னை",
+     "Chennai"
+    ]
+   },
+   {
+    "q": "ஆண்டு வருமானம் எவ்வளவு?",
+    "field": "annual_income",
+    "lang": "ta",
+    "gold": [
+     "271000"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "21_ta_electricity_bill",
+  "image": "21_ta_electricity_bill.png",
+  "lang": "ta",
+  "doc_type": "electricity_bill",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "scan",
+  "fields": {
+   "consumer_number": [
+    "512562484370"
+   ],
+   "name": [
+    "முருகன் செல்வம்",
+    "Murugan Selvam"
+   ],
+   "units_consumed": [
+    "67"
+   ],
+   "bill_amount": [
+    "468"
+   ],
+   "due_date": [
+    "14/03/2025"
+   ]
+  },
+  "questions": [
+   {
+    "q": "In whose name is the connection?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "முருகன் செல்வம்",
+     "Murugan Selvam"
+    ]
+   },
+   {
+    "q": "How many units of electricity were used?",
+    "field": "units_consumed",
+    "lang": "en",
+    "gold": [
+     "67"
+    ]
+   },
+   {
+    "q": "What is the due date for payment?",
+    "field": "due_date",
+    "lang": "en",
+    "gold": [
+     "14/03/2025"
+    ]
+   },
+   {
+    "q": "கட்டணத் தொகை எவ்வளவு?",
+    "field": "bill_amount",
+    "lang": "ta",
+    "gold": [
+     "468"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "22_ta_application_form",
+  "image": "22_ta_application_form.png",
+  "lang": "ta",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "photo",
+  "fields": {
+   "name": [
+    "முருகன் செல்வம்",
+    "Murugan Selvam"
+   ],
+   "father_name": [
+    "செல்வம் ராமசாமி",
+    "Selvam Ramasamy"
+   ],
+   "date_of_birth": [
+    "22/11/1982"
+   ],
+   "mobile": [
+    "7359410616"
+   ],
+   "district": [
+    "சென்னை",
+    "Chennai"
+   ],
+   "pin_code": [
+    "194898"
+   ],
+   "application_number": [
+    "REG/2025/58465"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the applicant's name?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "முருகன் செல்வம்",
+     "Murugan Selvam"
+    ]
+   },
+   {
+    "q": "What is the name of the applicant's father?",
+    "field": "father_name",
+    "lang": "en",
+    "gold": [
+     "செல்வம் ராமசாமி",
+     "Selvam Ramasamy"
+    ]
+   },
+   {
+    "q": "What is the application number?",
+    "field": "application_number",
+    "lang": "en",
+    "gold": [
+     "REG/2025/58465"
+    ]
+   },
+   {
+    "q": "விண்ணப்பதாரரின் பெயர் என்ன?",
+    "field": "name",
+    "lang": "ta",
+    "gold": [
+     "முருகன் செல்வம்",
+     "Murugan Selvam"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "23_ta_public_notice",
+  "image": "23_ta_public_notice.png",
+  "lang": "ta",
+  "doc_type": "public_notice",
+  "layout": "table",
+  "native_digits": false,
+  "degradation": "lowres",
+  "fields": {
+   "notice_number": [
+    "SW/433/2025"
+   ],
+   "date": [
+    "08/06/2025"
+   ],
+   "department": [
+    "கல்வித் துறை",
+    "Education Department"
+   ],
+   "last_date": [
+    "27/07/2025"
+   ],
+   "fee": [
+    "250"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the date of the notice?",
+    "field": "date",
+    "lang": "en",
+    "gold": [
+     "08/06/2025"
+    ]
+   },
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "SW/433/2025"
+    ]
+   },
+   {
+    "q": "Till when can candidates apply?",
+    "field": "last_date",
+    "lang": "en",
+    "gold": [
+     "27/07/2025"
+    ]
+   },
+   {
+    "q": "விண்ணப்பிக்க கடைசி தேதி எது?",
+    "field": "last_date",
+    "lang": "ta",
+    "gold": [
+     "27/07/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "24_te_application_form",
+  "image": "24_te_application_form.png",
+  "lang": "te",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "clean",
+  "fields": {
+   "name": [
+    "రవి కుమార్",
+    "Ravi Kumar"
+   ],
+   "father_name": [
+    "వెంకట రావు",
+    "Venkata Rao"
+   ],
+   "date_of_birth": [
+    "18/10/1975"
+   ],
+   "mobile": [
+    "8776583981"
+   ],
+   "district": [
+    "నల్గొండ",
+    "Nalgonda"
+   ],
+   "pin_code": [
+    "410454"
+   ],
+   "application_number": [
+    "SCH/2025/37317"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the application number?",
+    "field": "application_number",
+    "lang": "en",
+    "gold": [
+     "SCH/2025/37317"
+    ]
+   },
+   {
+    "q": "What is the name of the applicant's father?",
+    "field": "father_name",
+    "lang": "en",
+    "gold": [
+     "వెంకట రావు",
+     "Venkata Rao"
+    ]
+   },
+   {
+    "q": "What is the PIN code?",
+    "field": "pin_code",
+    "lang": "en",
+    "gold": [
+     "410454"
+    ]
+   },
+   {
+    "q": "దరఖాస్తుదారుని పేరు ఏమిటి?",
+    "field": "name",
+    "lang": "te",
+    "gold": [
+     "రవి కుమార్",
+     "Ravi Kumar"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "25_te_public_notice",
+  "image": "25_te_public_notice.png",
+  "lang": "te",
+  "doc_type": "public_notice",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "scan",
+  "fields": {
+   "notice_number": [
+    "EDU/983/2025"
+   ],
+   "date": [
+    "15/04/2025"
+   ],
+   "department": [
+    "గ్రామీణాభివృద్ధి శాఖ",
+    "Rural Development Department"
+   ],
+   "last_date": [
+    "19/08/2025"
+   ],
+   "fee": [
+    "500"
+   ]
+  },
+  "questions": [
+   {
+    "q": "How much is the application fee?",
+    "field": "fee",
+    "lang": "en",
+    "gold": [
+     "500"
+    ]
+   },
+   {
+    "q": "Which department issued this notice?",
+    "field": "department",
+    "lang": "en",
+    "gold": [
+     "గ్రామీణాభివృద్ధి శాఖ",
+     "Rural Development Department"
+    ]
+   },
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "EDU/983/2025"
+    ]
+   },
+   {
+    "q": "దరఖాస్తుకు చివరి తేదీ ఏది?",
+    "field": "last_date",
+    "lang": "te",
+    "gold": [
+     "19/08/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "26_te_income_certificate",
+  "image": "26_te_income_certificate.png",
+  "lang": "te",
+  "doc_type": "income_certificate",
+  "layout": "table",
+  "native_digits": false,
+  "degradation": "photo",
+  "fields": {
+   "certificate_number": [
+    "IC/2024/292054"
+   ],
+   "name": [
+    "రవి కుమార్",
+    "Ravi Kumar"
+   ],
+   "father_name": [
+    "వెంకట రావు",
+    "Venkata Rao"
+   ],
+   "annual_income": [
+    "477000"
+   ],
+   "district": [
+    "గుంటూరు",
+    "Guntur"
+   ],
+   "issue_date": [
+    "18/05/2024"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Which district is mentioned on the certificate?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "గుంటూరు",
+     "Guntur"
+    ]
+   },
+   {
+    "q": "When was the certificate issued?",
+    "field": "issue_date",
+    "lang": "en",
+    "gold": [
+     "18/05/2024"
+    ]
+   },
+   {
+    "q": "Whose income certificate is this?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "రవి కుమార్",
+     "Ravi Kumar"
+    ]
+   },
+   {
+    "q": "వార్షిక ఆదాయం ఎంత?",
+    "field": "annual_income",
+    "lang": "te",
+    "gold": [
+     "477000"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "27_te_electricity_bill",
+  "image": "27_te_electricity_bill.png",
+  "lang": "te",
+  "doc_type": "electricity_bill",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "lowres",
+  "fields": {
+   "consumer_number": [
+    "844241091476"
+   ],
+   "name": [
+    "రవి కుమార్",
+    "Ravi Kumar"
+   ],
+   "units_consumed": [
+    "171"
+   ],
+   "bill_amount": [
+    "1188"
+   ],
+   "due_date": [
+    "05/09/2025"
+   ]
+  },
+  "questions": [
+   {
+    "q": "How much has to be paid?",
+    "field": "bill_amount",
+    "lang": "en",
+    "gold": [
+     "1188"
+    ]
+   },
+   {
+    "q": "What is the consumer number?",
+    "field": "consumer_number",
+    "lang": "en",
+    "gold": [
+     "844241091476"
+    ]
+   },
+   {
+    "q": "By when should the bill be paid?",
+    "field": "due_date",
+    "lang": "en",
+    "gold": [
+     "05/09/2025"
+    ]
+   },
+   {
+    "q": "బిల్లు మొత్తం ఎంత?",
+    "field": "bill_amount",
+    "lang": "te",
+    "gold": [
+     "1188"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "28_te_application_form",
+  "image": "28_te_application_form.png",
+  "lang": "te",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "clean",
+  "fields": {
+   "name": [
+    "శ్రీనివాస్ రెడ్డి",
+    "Srinivas Reddy"
+   ],
+   "father_name": [
+    "నారాయణ రెడ్డి",
+    "Narayana Reddy"
+   ],
+   "date_of_birth": [
+    "06/10/1989"
+   ],
+   "mobile": [
+    "7839598138"
+   ],
+   "district": [
+    "విశాఖపట్నం",
+    "Visakhapatnam"
+   ],
+   "pin_code": [
+    "566155"
+   ],
+   "application_number": [
+    "APP/2025/85092"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the PIN code?",
+    "field": "pin_code",
+    "lang": "en",
+    "gold": [
+     "566155"
+    ]
+   },
+   {
+    "q": "What is the name of the applicant's father?",
+    "field": "father_name",
+    "lang": "en",
+    "gold": [
+     "నారాయణ రెడ్డి",
+     "Narayana Reddy"
+    ]
+   },
+   {
+    "q": "Which district is the applicant from?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "విశాఖపట్నం",
+     "Visakhapatnam"
+    ]
+   },
+   {
+    "q": "దరఖాస్తుదారుని పేరు ఏమిటి?",
+    "field": "name",
+    "lang": "te",
+    "gold": [
+     "శ్రీనివాస్ రెడ్డి",
+     "Srinivas Reddy"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "29_te_public_notice",
+  "image": "29_te_public_notice.png",
+  "lang": "te",
+  "doc_type": "public_notice",
+  "layout": "table",
+  "native_digits": false,
+  "degradation": "scan",
+  "fields": {
+   "notice_number": [
+    "EDU/990/2025"
+   ],
+   "date": [
+    "23/01/2025"
+   ],
+   "department": [
+    "విద్యా శాఖ",
+    "Education Department"
+   ],
+   "last_date": [
+    "31/08/2025"
+   ],
+   "fee": [
+    "250"
+   ]
+  },
+  "questions": [
+   {
+    "q": "How much is the application fee?",
+    "field": "fee",
+    "lang": "en",
+    "gold": [
+     "250"
+    ]
+   },
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "EDU/990/2025"
+    ]
+   },
+   {
+    "q": "Till when can candidates apply?",
+    "field": "last_date",
+    "lang": "en",
+    "gold": [
+     "31/08/2025"
+    ]
+   },
+   {
+    "q": "దరఖాస్తుకు చివరి తేదీ ఏది?",
+    "field": "last_date",
+    "lang": "te",
+    "gold": [
+     "31/08/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "30_kn_application_form",
+  "image": "30_kn_application_form.png",
+  "lang": "kn",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "photo",
+  "fields": {
+   "name": [
+    "ಮಂಜುನಾಥ ಗೌಡ",
+    "Manjunatha Gowda"
+   ],
+   "father_name": [
+    "ಬಸವರಾಜ ಗೌಡ",
+    "Basavaraja Gowda"
+   ],
+   "date_of_birth": [
+    "22/02/1993"
+   ],
+   "mobile": [
+    "8807478953"
+   ],
+   "district": [
+    "ಮೈಸೂರು",
+    "Mysuru"
+   ],
+   "pin_code": [
+    "475017"
+   ],
+   "application_number": [
+    "APP/2025/15638"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Who submitted this application?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "ಮಂಜುನಾಥ ಗೌಡ",
+     "Manjunatha Gowda"
+    ]
+   },
+   {
+    "q": "Which mobile number is mentioned in the form?",
+    "field": "mobile",
+    "lang": "en",
+    "gold": [
+     "8807478953"
+    ]
+   },
+   {
+    "q": "What is the date of birth?",
+    "field": "date_of_birth",
+    "lang": "en",
+    "gold": [
+     "22/02/1993"
+    ]
+   },
+   {
+    "q": "ಅರ್ಜಿದಾರರ ಹೆಸರು ಏನು?",
+    "field": "name",
+    "lang": "kn",
+    "gold": [
+     "ಮಂಜುನಾಥ ಗೌಡ",
+     "Manjunatha Gowda"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "31_kn_public_notice",
+  "image": "31_kn_public_notice.png",
+  "lang": "kn",
+  "doc_type": "public_notice",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "lowres",
+  "fields": {
+   "notice_number": [
+    "RD/965/2025"
+   ],
+   "date": [
+    "17/05/2025"
+   ],
+   "department": [
+    "ಗ್ರಾಮೀಣಾಭಿವೃದ್ಧಿ ಇಲಾಖೆ",
+    "Rural Development Department"
+   ],
+   "last_date": [
+    "17/09/2025"
+   ],
+   "fee": [
+    "100"
+   ]
+  },
+  "questions": [
+   {
+    "q": "How much is the application fee?",
+    "field": "fee",
+    "lang": "en",
+    "gold": [
+     "100"
+    ]
+   },
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "RD/965/2025"
+    ]
+   },
+   {
+    "q": "What is the last date to apply?",
+    "field": "last_date",
+    "lang": "en",
+    "gold": [
+     "17/09/2025"
+    ]
+   },
+   {
+    "q": "ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಕೊನೆಯ ದಿನಾಂಕ ಯಾವುದು?",
+    "field": "last_date",
+    "lang": "kn",
+    "gold": [
+     "17/09/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "32_kn_income_certificate",
+  "image": "32_kn_income_certificate.png",
+  "lang": "kn",
+  "doc_type": "income_certificate",
+  "layout": "table",
+  "native_digits": false,
+  "degradation": "clean",
+  "fields": {
+   "certificate_number": [
+    "IC/2025/407120"
+   ],
+   "name": [
+    "ರಮೇಶ್ ನಾಯಕ್",
+    "Ramesh Nayak"
+   ],
+   "father_name": [
+    "ಶಿವಪ್ಪ ನಾಯಕ್",
+    "Shivappa Nayak"
+   ],
+   "annual_income": [
+    "475000"
+   ],
+   "district": [
+    "ಧಾರವಾಡ",
+    "Dharwad"
+   ],
+   "issue_date": [
+    "06/01/2025"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Which district is mentioned on the certificate?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "ಧಾರವಾಡ",
+     "Dharwad"
+    ]
+   },
+   {
+    "q": "Whose income certificate is this?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "ರಮೇಶ್ ನಾಯಕ್",
+     "Ramesh Nayak"
+    ]
+   },
+   {
+    "q": "What is the certificate number?",
+    "field": "certificate_number",
+    "lang": "en",
+    "gold": [
+     "IC/2025/407120"
+    ]
+   },
+   {
+    "q": "ವಾರ್ಷಿಕ ಆದಾಯ ಎಷ್ಟು?",
+    "field": "annual_income",
+    "lang": "kn",
+    "gold": [
+     "475000"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "33_kn_electricity_bill",
+  "image": "33_kn_electricity_bill.png",
+  "lang": "kn",
+  "doc_type": "electricity_bill",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "scan",
+  "fields": {
+   "consumer_number": [
+    "202176688659"
+   ],
+   "name": [
+    "ಸುಮಾ ಹೆಗಡೆ",
+    "Suma Hegde"
+   ],
+   "units_consumed": [
+    "426"
+   ],
+   "bill_amount": [
+    "2712"
+   ],
+   "due_date": [
+    "15/04/2025"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the due date for payment?",
+    "field": "due_date",
+    "lang": "en",
+    "gold": [
+     "15/04/2025"
+    ]
+   },
+   {
+    "q": "In whose name is the connection?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "ಸುಮಾ ಹೆಗಡೆ",
+     "Suma Hegde"
+    ]
+   },
+   {
+    "q": "What is the consumer number?",
+    "field": "consumer_number",
+    "lang": "en",
+    "gold": [
+     "202176688659"
+    ]
+   },
+   {
+    "q": "ಬಿಲ್ ಮೊತ್ತ ಎಷ್ಟು?",
+    "field": "bill_amount",
+    "lang": "kn",
+    "gold": [
+     "2712"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "34_kn_application_form",
+  "image": "34_kn_application_form.png",
+  "lang": "kn",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "photo",
+  "fields": {
+   "name": [
+    "ಪ್ರಕಾಶ್ ರಾವ್",
+    "Prakash Rao"
+   ],
+   "father_name": [
+    "ನಾಗರಾಜ ರಾವ್",
+    "Nagaraja Rao"
+   ],
+   "date_of_birth": [
+    "28/07/1980"
+   ],
+   "mobile": [
+    "8462224088"
+   ],
+   "district": [
+    "ಮೈಸೂರು",
+    "Mysuru"
+   ],
+   "pin_code": [
+    "671034"
+   ],
+   "application_number": [
+    "SCH/2025/28666"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the applicant's name?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "ಪ್ರಕಾಶ್ ರಾವ್",
+     "Prakash Rao"
+    ]
+   },
+   {
+    "q": "What phone number can the applicant be reached on?",
+    "field": "mobile",
+    "lang": "en",
+    "gold": [
+     "8462224088"
+    ]
+   },
+   {
+    "q": "What is the PIN code?",
+    "field": "pin_code",
+    "lang": "en",
+    "gold": [
+     "671034"
+    ]
+   },
+   {
+    "q": "ಅರ್ಜಿದಾರರ ಹೆಸರು ಏನು?",
+    "field": "name",
+    "lang": "kn",
+    "gold": [
+     "ಪ್ರಕಾಶ್ ರಾವ್",
+     "Prakash Rao"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "35_kn_public_notice",
+  "image": "35_kn_public_notice.png",
+  "lang": "kn",
+  "doc_type": "public_notice",
+  "layout": "table",
+  "native_digits": false,
+  "degradation": "lowres",
+  "fields": {
+   "notice_number": [
+    "RD/167/2025"
+   ],
+   "date": [
+    "08/05/2025"
+   ],
+   "department": [
+    "ಸಮಾಜ ಕಲ್ಯಾಣ ಇಲಾಖೆ",
+    "Social Welfare Department"
+   ],
+   "last_date": [
+    "16/09/2025"
+   ],
+   "fee": [
+    "200"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Which department issued this notice?",
+    "field": "department",
+    "lang": "en",
+    "gold": [
+     "ಸಮಾಜ ಕಲ್ಯಾಣ ಇಲಾಖೆ",
+     "Social Welfare Department"
+    ]
+   },
+   {
+    "q": "How much is the application fee?",
+    "field": "fee",
+    "lang": "en",
+    "gold": [
+     "200"
+    ]
+   },
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "RD/167/2025"
+    ]
+   },
+   {
+    "q": "ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಕೊನೆಯ ದಿನಾಂಕ ಯಾವುದು?",
+    "field": "last_date",
+    "lang": "kn",
+    "gold": [
+     "16/09/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "36_gu_application_form",
+  "image": "36_gu_application_form.png",
+  "lang": "gu",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "clean",
+  "fields": {
+   "name": [
+    "જયેશ દેસાઈ",
+    "Jayesh Desai"
+   ],
+   "father_name": [
+    "દિનેશભાઈ દેસાઈ",
+    "Dineshbhai Desai"
+   ],
+   "date_of_birth": [
+    "04/09/1975"
+   ],
+   "mobile": [
+    "7073877030"
+   ],
+   "district": [
+    "અમદાવાદ",
+    "Ahmedabad"
+   ],
+   "pin_code": [
+    "746632"
+   ],
+   "application_number": [
+    "APP/2025/30403"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Who submitted this application?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "જયેશ દેસાઈ",
+     "Jayesh Desai"
+    ]
+   },
+   {
+    "q": "What is the application number?",
+    "field": "application_number",
+    "lang": "en",
+    "gold": [
+     "APP/2025/30403"
+    ]
+   },
+   {
+    "q": "When was the applicant born?",
+    "field": "date_of_birth",
+    "lang": "en",
+    "gold": [
+     "04/09/1975"
+    ]
+   },
+   {
+    "q": "અરજદારનું નામ શું છે?",
+    "field": "name",
+    "lang": "gu",
+    "gold": [
+     "જયેશ દેસાઈ",
+     "Jayesh Desai"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "37_gu_public_notice",
+  "image": "37_gu_public_notice.png",
+  "lang": "gu",
+  "doc_type": "public_notice",
+  "layout": "colon",
+  "native_digits": true,
+  "degradation": "scan",
+  "fields": {
+   "notice_number": [
+    "SW/968/2025"
+   ],
+   "date": [
+    "06/04/2025"
+   ],
+   "department": [
+    "ગ્રામ વિકાસ વિભાગ",
+    "Rural Development Department"
+   ],
+   "last_date": [
+    "05/11/2025"
+   ],
+   "fee": [
+    "200"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the notice number?",
+    "field": "notice_number",
+    "lang": "en",
+    "gold": [
+     "SW/968/2025"
+    ]
+   },
+   {
+    "q": "Which department issued this notice?",
+    "field": "department",
+    "lang": "en",
+    "gold": [
+     "ગ્રામ વિકાસ વિભાગ",
+     "Rural Development Department"
+    ]
+   },
+   {
+    "q": "What is the date of the notice?",
+    "field": "date",
+    "lang": "en",
+    "gold": [
+     "06/04/2025"
+    ]
+   },
+   {
+    "q": "અરજી કરવાની છેલ્લી તારીખ કઈ છે?",
+    "field": "last_date",
+    "lang": "gu",
+    "gold": [
+     "05/11/2025"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "38_gu_income_certificate",
+  "image": "38_gu_income_certificate.png",
+  "lang": "gu",
+  "doc_type": "income_certificate",
+  "layout": "table",
+  "native_digits": true,
+  "degradation": "photo",
+  "fields": {
+   "certificate_number": [
+    "IC/2024/841435"
+   ],
+   "name": [
+    "જયેશ દેસાઈ",
+    "Jayesh Desai"
+   ],
+   "father_name": [
+    "દિનેશભાઈ દેસાઈ",
+    "Dineshbhai Desai"
+   ],
+   "annual_income": [
+    "259000"
+   ],
+   "district": [
+    "વડોદરા",
+    "Vadodara"
+   ],
+   "issue_date": [
+    "23/09/2024"
+   ]
+  },
+  "questions": [
+   {
+    "q": "What is the annual income stated?",
+    "field": "annual_income",
+    "lang": "en",
+    "gold": [
+     "259000"
+    ]
+   },
+   {
+    "q": "What is the certificate number?",
+    "field": "certificate_number",
+    "lang": "en",
+    "gold": [
+     "IC/2024/841435"
+    ]
+   },
+   {
+    "q": "Which district is mentioned on the certificate?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "વડોદરા",
+     "Vadodara"
+    ]
+   },
+   {
+    "q": "વાર્ષિક આવક કેટલી છે?",
+    "field": "annual_income",
+    "lang": "gu",
+    "gold": [
+     "259000"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "39_gu_electricity_bill",
+  "image": "39_gu_electricity_bill.png",
+  "lang": "gu",
+  "doc_type": "electricity_bill",
+  "layout": "colon",
+  "native_digits": true,
+  "degradation": "lowres",
+  "fields": {
+   "consumer_number": [
+    "565624520287"
+   ],
+   "name": [
+    "નિશા શાહ",
+    "Nisha Shah"
+   ],
+   "units_consumed": [
+    "515"
+   ],
+   "bill_amount": [
+    "3338"
+   ],
+   "due_date": [
+    "04/09/2025"
+   ]
+  },
+  "questions": [
+   {
+    "q": "In whose name is the connection?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "નિશા શાહ",
+     "Nisha Shah"
+    ]
+   },
+   {
+    "q": "How much has to be paid?",
+    "field": "bill_amount",
+    "lang": "en",
+    "gold": [
+     "3338"
+    ]
+   },
+   {
+    "q": "What is the consumer number?",
+    "field": "consumer_number",
+    "lang": "en",
+    "gold": [
+     "565624520287"
+    ]
+   },
+   {
+    "q": "બિલની રકમ કેટલી છે?",
+    "field": "bill_amount",
+    "lang": "gu",
+    "gold": [
+     "3338"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "40_gu_application_form",
+  "image": "40_gu_application_form.png",
+  "lang": "gu",
+  "doc_type": "application_form",
+  "layout": "colon",
+  "native_digits": false,
+  "degradation": "clean",
+  "fields": {
+   "name": [
+    "કિંજલ મહેતા",
+    "Kinjal Mehta"
+   ],
+   "father_name": [
+    "કિરીટભાઈ મહેતા",
+    "Kiritbhai Mehta"
+   ],
+   "date_of_birth": [
+    "12/04/1980"
+   ],
+   "mobile": [
+    "9568553113"
+   ],
+   "district": [
+    "સુરત",
+    "Surat"
+   ],
+   "pin_code": [
+    "769227"
+   ],
+   "application_number": [
+    "APP/2025/60683"
+   ]
+  },
+  "questions": [
+   {
+    "q": "When was the applicant born?",
+    "field": "date_of_birth",
+    "lang": "en",
+    "gold": [
+     "12/04/1980"
+    ]
+   },
+   {
+    "q": "What is the applicant's name?",
+    "field": "name",
+    "lang": "en",
+    "gold": [
+     "કિંજલ મહેતા",
+     "Kinjal Mehta"
+    ]
+   },
+   {
+    "q": "Which district is the applicant from?",
+    "field": "district",
+    "lang": "en",
+    "gold": [
+     "સુરત",
+     "Surat"
+    ]
+   },
+   {
+    "q": "અરજદારનું નામ શું છે?",
+    "field": "name",
+    "lang": "gu",
+    "gold": [
+     "કિંજલ મહેતા",
+     "Kinjal Mehta"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "41_gu_public_notice",
+  "image": "41_gu_public_notice.png",
+  "lang": "gu",
+  "doc_type": "public_notice",
+  "layout": "table",
+  "native_digits": true,
+  "degradation": "scan",
+  "fields": {
+   "notice_number": [
+    "RD/368/2025"
+   ],
+   "date": [
+    "23/04/2025"
+   ],
+   "department": [
+    "શિક્ષણ વિભાગ",
+    "Education Department"
+   ],
+   "last_date": [
+    "25/09/2025"
+   ],
+   "fee": [
+    "1000"
+   ]
+  },
+  "questions": [
+   {
+    "q": "Till when can candidates apply?",
+    "field": "last_date",
+    "lang": "en",
+    "gold": [
+     "25/09/2025"
+    ]
+   },
+   {
+    "q": "How much is the application fee?",
+    "field": "fee",
+    "lang": "en",
+    "gold": [
+     "1000"
+    ]
+   },
+   {
+    "q": "Which department issued this notice?",
+    "field": "department",
+    "lang": "en",
+    "gold": [
+     "શિક્ષણ વિભાગ",
+     "Education Department"
+    ]
+   },
+   {
+    "q": "અરજી કરવાની છેલ્લી તારીખ કઈ છે?",
+    "field": "last_date",
+    "lang": "gu",
+    "gold": [
+     "25/09/2025"
+    ]
+   }
+  ]
+ }
+]
